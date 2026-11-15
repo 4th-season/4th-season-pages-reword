@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Re:Word 관계의 언어 · 4번째 계절</title>
+<meta name="description" content="괜찮아, 됐어, 신경 쓰지 마. 같은 말도 누구에게, 언제, 어떤 마음으로 했는지에 따라 다르게 남습니다. Re:Word 관계의 언어는 말의 뜻보다 그 말이 오간 장면과 관계의 여운을 읽습니다.">
+<link rel="canonical" href="https://4th-season.com/relation">
+<meta property="og:title" content="Re:Word 관계의 언어 · 4번째 계절">
+<meta property="og:description" content="말의 뜻보다 그 말이 오간 장면과 관계의 여운을 읽습니다.">
+<style>
+:root{
+  --bg:#f5f2f6;--paper:#fff;--ink:#1f1f22;--sub:#404045;--muted:#636168;
+  --line:#e2dbe6;--plum:#665574;--plum-deep:#41354a;--plum-soft:#eee7f1;
+  --rose:#916979;--rose-soft:#f5e9ed;--sage:#617267;--sage-soft:#ebf1ed;
+  --warm:#8b725d;--max:1160px;--shadow:0 22px 60px rgba(54,41,62,.08)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;word-break:keep-all}a{color:inherit;text-decoration:none}img,svg{display:block;max-width:100%}.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}
+.site-head{position:sticky;top:0;z-index:30;background:rgba(245,242,246,.93);backdrop-filter:blur(14px);border-bottom:1px solid rgba(65,53,74,.08)}.head-in{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font-weight:900;letter-spacing:-.04em}.nav{display:flex;gap:18px;font-size:.76rem;font-weight:850;letter-spacing:.09em}
+.hero{padding:92px 0 70px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}.kicker{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}.kicker span{padding:7px 11px;border:1px solid #d9cfde;border-radius:999px;background:rgba(255,255,255,.72);color:var(--plum);font-size:.72rem;font-weight:900;letter-spacing:.08em}.hero h1{margin:0;color:#302735;font-size:clamp(3rem,6.8vw,6.3rem);line-height:.98;letter-spacing:-.065em}.hero h1 em{display:block;margin-bottom:9px;color:var(--plum);font-style:normal}.hero .lead{max-width:700px;margin:28px 0 0;color:var(--sub);font-size:clamp(1.02rem,1.5vw,1.18rem);line-height:1.95}.hero .lead strong{color:var(--ink)}
+.hero-visual{position:relative;padding:24px;border:1px solid var(--line);border-radius:32px;background:rgba(255,255,255,.78);box-shadow:var(--shadow)}.hero-visual figcaption{padding:18px 8px 2px;color:#4b4850;font-size:.86rem;line-height:1.75}.hero-visual strong{color:#29252d}
+.section{padding:92px 0}.section.paper{background:var(--paper)}.section-head{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:end;margin-bottom:42px}.section-head h2{margin:0;color:#342a3b;font-size:clamp(2rem,4.3vw,4.3rem);line-height:1.07;letter-spacing:-.055em}.section-head p{margin:0;color:var(--sub);font-size:1rem;line-height:1.92}.prose{max-width:850px}.prose p{margin:0 0 1.45em;color:var(--ink);font-size:1.05rem;line-height:2}.prose strong{font-weight:850}
+.scene-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px}.scene{padding:26px;border:1px solid var(--line);border-radius:22px;background:#fff}.scene small{display:block;margin-bottom:20px;color:var(--plum);font-size:.7rem;font-weight:900;letter-spacing:.12em}.scene .dialogue{margin:0 0 18px;color:#2c2930;font-size:1.18rem;font-weight:850;line-height:1.65}.scene p{margin:0;color:#444148;font-size:.9rem;line-height:1.82}
+.pause{padding:110px 0;background:#43364c;color:#fff}.pause blockquote{max-width:920px;margin:0 auto;font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(2rem,4.6vw,4.4rem);line-height:1.28;letter-spacing:-.05em;text-align:center}.pause p{max-width:700px;margin:28px auto 0;color:#e2dae6;line-height:1.9;text-align:center}
+.areas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.area{position:relative;min-height:255px;padding:28px;border:1px solid var(--line);border-radius:24px;background:#fff;overflow:hidden}.area::after{content:"";position:absolute;right:-32px;bottom:-42px;width:120px;height:120px;border:1px solid #ece5ef;border-radius:50%}.area-num{display:block;margin-bottom:30px;color:#aa97b4;font-size:.72rem;font-weight:900;letter-spacing:.14em}.area h3{margin:0 0 11px;color:#342b39;font-size:1.55rem;letter-spacing:-.04em}.area p{margin:0;color:#3f3f43;font-size:.91rem;line-height:1.8}.area .words{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.area .words span{padding:7px 10px;border-radius:999px;background:var(--plum-soft);color:#51415c;font-size:.75rem;font-weight:800}.area:nth-child(2n) .words span{background:var(--rose-soft);color:#6f4d59}.area:nth-child(3n) .words span{background:var(--sage-soft);color:#4d6256}.area-posts{position:relative;z-index:2;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}.area-posts a{display:block;padding:14px 15px;border-radius:15px;background:#faf8fb;transition:.18s ease}.area-posts a:hover{transform:translateY(-2px);background:#f5f0f7}.area-posts small{display:block;margin-bottom:5px;color:#7b6688;font-size:.67rem;font-weight:900;letter-spacing:.07em}.area-posts strong{display:block;color:#242126;font-size:.94rem;line-height:1.55}.area-posts span{display:block;margin-top:6px;color:#414146;font-size:.76rem;line-height:1.65}
+.bridge{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:36px}.voice{padding:34px;border-radius:24px}.voice.say{background:var(--rose-soft)}.voice.hear{background:var(--sage-soft)}.voice small{display:block;margin-bottom:10px;font-size:.72rem;font-weight:900;letter-spacing:.1em}.voice h3{margin:0 0 15px;font-size:1.65rem;letter-spacing:-.04em}.voice p{margin:0;color:#35363a;line-height:1.9}.voice.say small{color:#805663}.voice.hear small{color:#53695c}
+.method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:38px}.method-card{padding:26px;border-top:3px solid var(--plum);background:#faf8fb}.method-card b{display:block;margin-bottom:10px;color:#342a3b}.method-card p{margin:0;color:#414146;font-size:.91rem;line-height:1.82}
+.closing{padding:96px 0}.closing-box{padding:48px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(135deg,#fff,#f3eef6)}.closing-box small{color:var(--plum);font-weight:900;letter-spacing:.12em}.closing-box h2{max-width:880px;margin:14px 0 22px;color:#322838;font-size:clamp(2rem,4.4vw,4.2rem);line-height:1.16;letter-spacing:-.055em}.closing-box p{max-width:780px;margin:0;color:#38373b;font-size:1.02rem;line-height:1.95}
+.footer{padding:34px 0 50px;border-top:1px solid var(--line);color:#555159;font-size:.75rem}.footer-in{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.fade{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}.fade.on{opacity:1;transform:none}
+@media(max-width:900px){.hero-grid,.section-head,.bridge{grid-template-columns:1fr}.hero-grid{gap:38px}.scene-grid,.method{grid-template-columns:1fr}.areas{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.wrap{width:min(calc(100% - 28px),var(--max))}.nav{gap:10px;font-size:.66rem}.hero{padding:70px 0 52px}.hero h1{font-size:3.15rem}.hero-visual{padding:13px;border-radius:24px}.section{padding:68px 0}.areas{grid-template-columns:1fr}.area{min-height:auto}.pause{padding:76px 0}.closing-box{padding:34px 25px}.scene{padding:23px}}
+
+/* Role evaluation section: compact reading board, consistent with the existing light UI. */
+.role-patterns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:17px;margin-bottom:16px}
+.role-patterns div{padding:13px 12px;border-radius:12px;border:1px solid #eadfed;background:#f7f3f9}
+.role-patterns b{display:block;font-size:.79rem;font-weight:800;color:#503d60;line-height:1.45}
+.role-patterns span{display:block;margin-top:7px;font-size:.76rem;color:#514a56;line-height:1.68}
+.area p.role-reading{margin-top:16px}
+@media(max-width:600px){.role-patterns{grid-template-columns:1fr}}
+
+/* NW-083 trait-label explanatory section: light, responsive; existing 04 UI preserved. */
+.role-person-judgment{margin-top:22px;padding-top:10px}
+.role-person-judgment .role-rule{height:1px;background:#e8dfe9;margin-bottom:20px}
+.role-person-judgment h4{margin:0 0 15px;font-size:1.05rem;line-height:1.58;color:#3c3050;font-weight:800;letter-spacing:-.02em}
+.role-person-judgment p{line-height:1.84;color:#4a4552;font-size:.83rem;margin:10px 0}
+.judgment-scene{padding:15px 17px 12px;background:#faf7fb;border:1px solid #e8dfec;border-radius:15px}
+.role-person-judgment .judgment-scene-label{margin:0 0 9px;font-size:.75rem;color:#685376;font-weight:800}
+.role-person-judgment .judgment-quote{border-left:3px solid #b6a4c5;margin:12px 0;padding:9px 13px;background:white;border-radius:0 9px 9px 0;color:#4d3c61;font-weight:750}
+.role-person-judgment .judgment-quote.tone{border-left-color:#c18d9d;color:#765063}
+.judgment-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:17px 0}
+.judgment-flow div{background:#f5f1f6;padding:12px;border:1px solid #e8e0ea;border-radius:12px;min-width:0}
+.judgment-flow b,.judgment-flow span,.judgment-flow small{display:block;line-height:1.55}
+.judgment-flow b{font-size:.73rem;color:#513e63}
+.judgment-flow span{font-size:.8rem;margin-top:7px;color:#494250;word-break:keep-all}
+.judgment-flow small{margin-top:7px;color:#736a77;font-size:.69rem}
+.judgment-dialogue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:17px 0}
+.judgment-dialogue{padding:14px 15px;border-radius:12px;border:1px solid #e7e1eb;background:#f5faf7}
+.judgment-dialogue:nth-child(2){background:#faf4f6;border-color:#efdfe7}
+.judgment-dialogue b{display:block;font-size:.78rem;color:#345944}
+.judgment-dialogue:nth-child(2) b{color:#805067}
+.role-person-judgment .judgment-dialogue p{margin:9px 0;font-size:.79rem}
+.judgment-dialogue span{font-size:.72rem;line-height:1.6;color:#665c67}
+.role-person-judgment .judgment-research{font-size:.74rem;color:#716b75;line-height:1.72;margin:20px 0 0}
+.role-person-judgment .judgment-research a{color:#674e7c;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:650px){.judgment-flow,.judgment-dialogue-grid{grid-template-columns:1fr}}
+
+/* Re:Word /relation 04: emotional evaluation, NW-086 */
+.emotion-judgment{margin-top:32px;padding-top:24px;border-top:1px solid #e4dfe8}
+.emotion-judgment h4{font-size:clamp(1.06rem,2vw,1.29rem);line-height:1.6;color:#292436;margin:0 0 18px;font-weight:800}
+.emotion-judgment p{line-height:1.85;color:#38323f;margin:0 0 18px}
+.emotion-judgment .emotion-scene{background:#faf8fc;border:1px solid #e6dfea;border-radius:15px;padding:19px 18px 6px;margin:15px 0 20px}
+.emotion-judgment .emotion-scene-time{color:#655079;font-weight:750;font-size:.78rem;margin-bottom:9px}
+.emotion-dialogue{display:grid;gap:8px;margin:15px 0}
+.emotion-dialogue p{display:grid;grid-template-columns:45px 1fr;gap:9px;background:#fff;padding:11px 12px;border:1px solid #eae6ee;border-radius:10px;margin:0!important}
+.emotion-dialogue b{font-size:.8rem;color:#6e507a}.emotion-dialogue span{font-size:.86rem;color:#33303b}
+.emotion-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:18px 0 21px}
+.emotion-flow>div{border:1px solid #e6e1eb;background:#f7f5fa;border-radius:12px;padding:13px}
+.emotion-flow b,.emotion-followup b{display:block;color:#4e3c60;font-size:.82rem;font-weight:800;margin-bottom:7px}
+.emotion-flow span{display:block;color:#35303e;font-size:.83rem;line-height:1.65}
+.emotion-flow small,.emotion-followup small{display:block;color:#686071;font-size:.75rem;line-height:1.55;margin-top:7px}
+.emotion-followup{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:19px 0}
+.emotion-followup>div{padding:16px;border-radius:14px;border:1px solid #dce9e2;background:#f0f7f2}
+.emotion-followup>div+div{border-color:#eadce5;background:#fbf3f6}
+.emotion-followup p{font-size:.87rem;line-height:1.72;margin-bottom:8px}
+.emotion-judgment .emotion-research{font-size:.8rem;line-height:1.65;border-top:1px solid #e7e2eb;margin-top:23px;padding-top:12px;color:#5d5862}
+.emotion-research a{color:#5d4775;word-break:break-all}
+@media(max-width:680px){.emotion-flow,.emotion-followup{grid-template-columns:1fr}.emotion-scene{padding:14px 13px 5px!important}}
+
+/* REWORD 04 NW-091 — achievement and luck attribution */
+.achievement-attribution{margin-top:36px;padding-top:29px;border-top:1px solid #e4dfe8}
+.achievement-attribution h4{font-size:clamp(1.1rem,2.1vw,1.34rem);line-height:1.55;margin:0 0 18px;color:#282335;font-weight:800}
+.achievement-attribution h5{font-size:1rem;font-weight:780;color:#343041;line-height:1.62;margin:24px 0 13px}
+.achievement-attribution p{line-height:1.85;color:#38333f;margin:0 0 17px}
+.achievement-attribution em{font-style:normal;font-weight:730;color:#5c4679}
+.achievement-scene{background:#faf8fc;border:1px solid #e5dfe9;border-radius:16px;padding:21px 19px 7px;margin:18px 0 23px}
+.achievement-attribution .achievement-time{font-size:.79rem;font-weight:750;color:#695779;margin-bottom:12px}
+.achievement-dialogue{display:grid;gap:8px;margin:16px 0}
+.achievement-dialogue p{display:grid;grid-template-columns:45px 1fr;gap:9px;background:#fff;padding:11px 13px;border:1px solid #eae5ed;border-radius:11px;margin:0!important}
+.achievement-dialogue b{font-size:.81rem;color:#5a4870}
+.achievement-dialogue span{font-size:.88rem;line-height:1.7;color:#38333f}
+.achievement-axes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0 24px}
+.achievement-axes>div{border-radius:13px;border:1px solid #e2e8e4;background:#f3f8f5;padding:15px}
+.achievement-axes>div:nth-child(3),.achievement-axes>div:nth-child(4){background:#f7f4f9;border-color:#e8e1ec}
+.achievement-axes b{font-size:.87rem;color:#36594a;display:block;margin-bottom:7px}
+.achievement-axes span{font-size:.82rem;display:block;color:#4d4a55;line-height:1.67}
+.achievement-axes small{font-size:.73rem;color:#6a626c;display:block;margin-top:8px}
+.achievement-shift{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:21px 0 26px}
+.achievement-shift>div{background:#f4f1f7;border-radius:12px;border:1px solid #e2dce9;padding:15px 12px}
+.achievement-shift b{font-size:.81rem;color:#4b3b5d;display:block;margin-bottom:7px}
+.achievement-shift span{font-size:.83rem;color:#453e4d;display:block;line-height:1.6}
+.achievement-shift small{font-size:.72rem;color:#675d6c;display:block;line-height:1.56;margin-top:8px}
+.achievement-followup{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0 24px}
+.achievement-followup>div{border:1px solid #dce9e1;border-radius:14px;background:#f1f8f3;padding:17px}
+.achievement-followup>div+div{border-color:#ecdce3;background:#fbf3f6}
+.achievement-followup b{font-size:.83rem;color:#365b46;display:block}
+.achievement-followup>div+div b{color:#7a4d63}
+.achievement-followup p{font-size:.88rem;line-height:1.74;margin:10px 0}
+.achievement-followup small{display:block;color:#5f5b65;font-size:.74rem;line-height:1.6}
+.achievement-attribution p.achievement-research{font-size:.78rem;line-height:1.78;border-top:1px solid #e8e2eb;padding-top:14px;margin-top:22px;color:#645d69}
+.achievement-research a{color:#654c7f;word-break:break-word;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:680px){.achievement-axes,.achievement-followup,.achievement-shift{grid-template-columns:1fr}.achievement-dialogue p{grid-template-columns:38px 1fr}.achievement-scene{padding:16px 14px 5px}}
+
+/* 04 / NW-096 comparative language board. Bright and high-contrast for mobile. */
+.comparison-of-people{margin-top:32px;padding-top:27px;border-top:1px solid #e7e1ed}
+.comparison-of-people h4{margin-bottom:18px}
+.comparison-of-people h5{color:#493855;margin:25px 0 12px;font-size:1.03rem;line-height:1.55}
+.comparison-scene{padding:20px 19px 13px;background:#faf7fc;border:1px solid #e8deed;border-radius:16px}
+.comparison-kicker{color:#6c5576;font-size:.8rem;font-weight:750;margin-bottom:16px}
+.comparison-dialogue{display:grid;gap:10px;margin:20px 0}
+.comparison-dialogue p{padding:13px 15px;margin:0;background:#fff;border:1px solid #e9e2ee;border-radius:12px}
+.comparison-dialogue b{display:block;font-size:.8rem;color:#503c63;margin-bottom:5px}
+.comparison-dialogue span{display:block;color:#292430;line-height:1.79}
+.comparison-of-people em{font-style:normal;font-weight:720;color:#614773}
+.comparison-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0}
+.comparison-path div{padding:15px 12px;background:#f6f1f8;border:1px solid #e8deed;border-radius:13px}
+.comparison-path b,.comparison-path span,.comparison-path small{display:block}
+.comparison-path b{color:#4d3a59;font-size:.82rem;line-height:1.5}
+.comparison-path span{margin:9px 0;color:#302737;font-size:.86rem;line-height:1.7}
+.comparison-path small{color:#5b515f;font-size:.75rem;line-height:1.55}
+.comparison-followup{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:23px 0}
+.comparison-followup>div{border:1px solid #e6dbe9;border-radius:14px;padding:18px;background:#f3f7f4}
+.comparison-followup>div:last-child{background:#fcf3f5;border-color:#eddfe6}
+.comparison-followup b{color:#365b48;font-size:.86rem}
+.comparison-followup>div:last-child b{color:#784e5e}
+.comparison-followup p{color:#322b35;margin:12px 0;line-height:1.8}
+.comparison-followup small{color:#504a55;line-height:1.65;display:block}
+.comparison-research{font-size:.82rem;color:#564e5b;border-top:1px solid #e9e2ee;padding-top:13px;margin-top:18px;line-height:1.8}
+@media(max-width:640px){.comparison-path,.comparison-followup{grid-template-columns:1fr}.comparison-scene{padding:16px 13px}}
+
+/* Re:Word NW-052 — 05 영역 HUB 흡수. 밝은 톤과 가독성 유지 */
+#area-05 .rw-silence{position:relative;z-index:2;margin-top:24px;border-top:1px solid #e8dfea;padding-top:22px}
+#area-05 .rw-silence-kicker{font-size:.7rem;letter-spacing:.075em;font-weight:900;color:#6c567b}
+#area-05 .rw-silence h4{margin:9px 0 17px;color:#322b39;font-size:1.12rem;line-height:1.5;letter-spacing:-.025em}
+#area-05 .rw-silence h5{font-size:.94rem;color:#3d3247;margin:23px 0 12px;line-height:1.55}
+#area-05 .rw-silence-scene{padding:16px 17px;background:#f9f7fa;border:1px solid #e8e0ea;border-radius:14px}
+#area-05 .rw-silence-scene>small{display:block;color:#675871;font-size:.73rem;font-weight:800;line-height:1.5;margin-bottom:13px}
+#area-05 .rw-silence p{margin:0 0 13px;color:#39353e;font-size:.82rem;line-height:1.85}
+#area-05 .rw-silence-talk{display:grid;gap:8px;margin:13px 0}
+#area-05 .rw-silence-talk p{border-left:3px solid #afa0bb;border-radius:4px;padding:10px 12px;margin:0;background:#fff}
+#area-05 .rw-silence-talk p+ p{background:#eef4ef;border-left-color:#98b3a0}
+#area-05 .rw-silence-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:13px}
+#area-05 .rw-silence-flow>div{padding:13px 10px;border:1px solid #e8deea;background:#f7f2f9;border-radius:12px}
+#area-05 .rw-silence-flow>div:nth-child(2){background:#f5eff2}
+#area-05 .rw-silence-flow>div:nth-child(3){background:#edf3ef}
+#area-05 .rw-silence-flow small{font-size:.69rem;color:#694d77;font-weight:900}
+#area-05 .rw-silence-flow strong{display:block;color:#2e2833;font-size:.82rem;line-height:1.57;margin:9px 0}
+#area-05 .rw-silence-flow span{color:#514a57;font-size:.73rem;line-height:1.66}
+#area-05 .rw-silence-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-bottom:17px}
+#area-05 .rw-silence-choices>div{padding:15px;border-radius:13px;border:1px solid #dde8df;background:#f0f5f1}
+#area-05 .rw-silence-choices>div+div{border-color:#ecdee4;background:#fbf2f4}
+#area-05 .rw-silence-choices b{display:block;font-size:.82rem;color:#304b3b;margin-bottom:8px}
+#area-05 .rw-silence-choices>div+div b{color:#724453}
+#area-05 .rw-silence-choices small{display:block;font-size:.73rem;color:#534d57;line-height:1.7}
+#area-05 .rw-silence .rw-silence-reading{margin:15px 0}
+#area-05 .rw-silence .rw-silence-source{color:#615a65;font-size:.71rem;padding:12px 0;border-top:1px dashed #d8cddc}
+#area-05 .rw-silence .rw-silence-end{border-top:2px solid #e7dfea;margin:13px 0 3px;padding-top:15px;color:#372c42}
+@media(max-width:760px){#area-05 .rw-silence-flow,#area-05 .rw-silence-choices{grid-template-columns:1fr}}
+
+
+/* 2026-10-23 NW-057, small responsive HUB 05 addon */
+#area-05 .rw-close{position:relative;z-index:2;margin-top:24px;padding-top:22px;border-top:1px solid #e5dce9}
+#area-05 .rw-close-kicker{font-size:.71rem;letter-spacing:.075em;color:#685576;font-weight:900;margin:0 0 8px}
+#area-05 .rw-close h4{font-size:1.14rem;line-height:1.5;color:#322b39;margin:0 0 17px;letter-spacing:-.024em}
+#area-05 .rw-close h5{font-size:.94rem;line-height:1.6;color:#3d3445;margin:20px 0 12px}
+#area-05 .rw-close p{font-size:.82rem;line-height:1.88;color:#37333e;margin:0 0 13px}
+#area-05 .rw-close-scene{padding:17px;background:#faf8fb;border:1px solid #e8e0ec;border-radius:14px}
+#area-05 .rw-close-scene small{display:block;font-size:.74rem;color:#6b5775;font-weight:850;margin-bottom:12px}
+#area-05 .rw-close-talk{display:grid;gap:8px;margin:14px 0}
+#area-05 .rw-close-talk p{margin:0;border-radius:8px;border-left:3px solid #a894b5;padding:10px 12px;background:#fff}
+#area-05 .rw-close-talk p:nth-child(2){background:#edf4ef;border-left-color:#9cb6a4}
+#area-05 .rw-close-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0 24px}
+#area-05 .rw-close-flow>div{border-radius:12px;padding:14px 11px;background:#f7f3f9;border:1px solid #e7dfea}
+#area-05 .rw-close-flow>div:nth-child(2){background:#f0f5f1;border-color:#dde7dd}
+#area-05 .rw-close-flow>div:nth-child(3){background:#fbf3f4}
+#area-05 .rw-close-flow small{display:block;font-size:.69rem;font-weight:800;color:#6c5875}
+#area-05 .rw-close-flow strong{display:block;color:#2e2934;font-size:.83rem;margin:8px 0;line-height:1.6}
+#area-05 .rw-close-flow span{font-size:.73rem;line-height:1.6;color:#58525b}
+#area-05 .rw-close-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:0 0 20px}
+#area-05 .rw-close-compare>div{border:1px solid #dce6df;background:#f2f7f3;border-radius:13px;padding:15px}
+#area-05 .rw-close-compare>div+div{border-color:#e9dbe2;background:#fbf3f5}
+#area-05 .rw-close-compare b{font-size:.83rem;display:block;color:#365c48;margin-bottom:7px}
+#area-05 .rw-close-compare>div+div b{color:#774c59}
+#area-05 .rw-close-compare p{font-size:.81rem;margin:0 0 9px}
+#area-05 .rw-close-compare small{font-size:.73rem;line-height:1.7;color:#58515d}
+#area-05 .rw-close .rw-close-source{font-size:.71rem;padding:10px 0;border-top:1px dashed #d9cfdf;color:#56505b}
+#area-05 .rw-close .rw-close-end{border-top:2px solid #e5dcea;padding-top:15px;font-size:.85rem;color:#352d3d}
+@media(max-width:760px){#area-05 .rw-close-flow,#area-05 .rw-close-compare{grid-template-columns:1fr}}
+
+
+/* 5-3 NW-062 · HUB 안의 경험과 결정권 */
+#area-05 .rw-experience{margin:25px 0 26px;padding-top:20px;border-top:1px solid #e9dfea}
+#area-05 .rw-experience-kicker{font-size:.71rem;color:#625279;font-weight:850;letter-spacing:.06em}
+#area-05 .rw-experience h4{font-size:1.12rem;margin:9px 0 18px;line-height:1.52;color:#29262e;letter-spacing:-.025em}
+#area-05 .rw-experience h5{font-size:.94rem;margin:21px 0 11px;line-height:1.52;color:#3a3341}
+#area-05 .rw-experience p{font-size:.82rem;line-height:1.86;color:#38343c;margin:0 0 13px}
+#area-05 .rw-experience-scene{background:#faf8fb;border:1px solid #e7e0ea;border-radius:15px;padding:17px 18px}
+#area-05 .rw-experience-scene>small{display:block;font-size:.73rem;font-weight:800;line-height:1.6;color:#6b5978;margin-bottom:13px}
+#area-05 .rw-experience-talk{display:grid;gap:7px;margin:15px 0}
+#area-05 .rw-experience-talk p{background:#fff;border-left:3px solid #b19bbd;border-radius:5px;padding:10px 12px;margin:0}
+#area-05 .rw-experience-talk p:nth-child(even){background:#eef5f0;border-left-color:#a0b6a6}
+#area-05 .rw-experience-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:15px 0 20px}
+#area-05 .rw-experience-flow>div{padding:15px 12px;background:#f4f0f7;border-radius:13px;border:1px solid #e5dfea}
+#area-05 .rw-experience-flow>div:nth-child(2){background:#f9f2f4}
+#area-05 .rw-experience-flow>div:nth-child(3){background:#eff5f1}
+#area-05 .rw-experience-flow small{display:block;font-size:.69rem;color:#654c74;font-weight:850}
+#area-05 .rw-experience-flow strong{display:block;font-size:.83rem;color:#302937;line-height:1.63;margin:9px 0}
+#area-05 .rw-experience-flow span{display:block;color:#4e4754;font-size:.73rem;line-height:1.72}
+#area-05 .rw-experience-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 20px}
+#area-05 .rw-experience-compare>div{padding:16px;border:1px solid #dce7df;border-radius:14px;background:#f1f7f3}
+#area-05 .rw-experience-compare>div+div{background:#fcf2f4;border-color:#ecdce2}
+#area-05 .rw-experience-compare b{display:block;color:#315740;font-size:.82rem;margin-bottom:9px}
+#area-05 .rw-experience-compare>div+div b{color:#80515e}
+#area-05 .rw-experience-compare small{display:block;color:#4e4852;font-size:.73rem;line-height:1.71}
+#area-05 .rw-experience .rw-experience-source{padding:12px 0;border-top:1px dashed #d8ccdf;color:#5b535e;font-size:.73rem}
+#area-05 .rw-experience .rw-experience-ending{margin-top:12px;border-top:2px solid #e9dfea;padding-top:15px;color:#342b3c}
+@media(max-width:760px){#area-05 .rw-experience-flow,#area-05 .rw-experience-compare{grid-template-columns:1fr}#area-05 .rw-experience-scene{padding:13px}}
+
+
+/* SEQ104 NW067: existing relation hub section 05 light, accessible supplement */
+#area-05 .rw-care{margin:26px 0;padding:20px 0 4px;border-top:1px solid #e8e0ea;color:#302b36}
+#area-05 .rw-care-kicker{font-size:.72rem;color:#6c557c;font-weight:850;letter-spacing:.06em}
+#area-05 .rw-care h4{margin:10px 0 18px;line-height:1.5;letter-spacing:-.02em;font-size:1.12rem;color:#302936}
+#area-05 .rw-care h5{margin:25px 0 13px;color:#40344a;font-size:.96rem;line-height:1.5}
+#area-05 .rw-care p{color:#39343f;font-size:.83rem;line-height:1.87;margin:0 0 13px}
+#area-05 .rw-care-scene{padding:17px 18px;background:#faf8fb;border:1px solid #e7dfeb;border-radius:15px}
+#area-05 .rw-care-scene>small{display:block;color:#695879;font-size:.74rem;font-weight:800;line-height:1.6;margin-bottom:12px}
+#area-05 .rw-care-talk{display:grid;gap:8px;margin:13px 0}
+#area-05 .rw-care-talk p{padding:10px 13px;background:#fff;border-left:3px solid #b3a0be;border-radius:5px;margin:0}
+#area-05 .rw-care-talk p:nth-child(even){background:#edf5f0;border-color:#96b7a2}
+#area-05 .rw-care-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:15px 0 21px}
+#area-05 .rw-care-flow>div{padding:14px;background:#f5f0f7;border:1px solid #e4dbea;border-radius:12px}
+#area-05 .rw-care-flow>div:nth-child(2){background:#fbf1f5}
+#area-05 .rw-care-flow>div:nth-child(3){background:#edf5f0}
+#area-05 .rw-care-flow small{font-size:.69rem;color:#675077;font-weight:850}
+#area-05 .rw-care-flow strong{display:block;font-size:.82rem;line-height:1.66;color:#302936;margin:9px 0}
+#area-05 .rw-care-flow span{display:block;font-size:.74rem;line-height:1.7;color:#544c57}
+#area-05 .rw-care-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 20px}
+#area-05 .rw-care-compare>div{padding:16px;border-radius:13px;background:#eff6f1;border:1px solid #dce8df}
+#area-05 .rw-care-compare>div+div{background:#fbf2f5;border-color:#eadbe3}
+#area-05 .rw-care-compare b{display:block;color:#355745;font-size:.82rem;margin-bottom:9px}
+#area-05 .rw-care-compare>div+div b{color:#795263}
+#area-05 .rw-care-compare small{display:block;color:#4c4650;font-size:.74rem;line-height:1.7}
+#area-05 .rw-care .rw-care-source{padding:12px 0;border-top:1px dashed #d9cddd;color:#615b67;font-size:.72rem}
+#area-05 .rw-care .rw-care-end{padding:15px 0;margin:17px 0 0;border-top:2px solid #e8ddea;color:#382c41}
+@media(max-width:760px){#area-05 .rw-care-flow,#area-05 .rw-care-compare{grid-template-columns:1fr}#area-05 .rw-care-scene{padding:13px}}
+
+
+/* NW-072 | Re:Word 관계의 언어 | 05-1 */
+#area-05 .rw-worry{margin:25px 0;padding:23px 0 6px;border-top:1px solid #e4ddea;color:#302b37;position:relative;z-index:1}
+#area-05 .rw-worry-kicker{font-size:.72rem;font-weight:850;letter-spacing:.06em;color:#725780}
+#area-05 .rw-worry h4{font-size:1.12rem;line-height:1.51;letter-spacing:-.02em;color:#2e2935;margin:10px 0 18px}
+#area-05 .rw-worry h5{font-size:.93rem;color:#3c3245;line-height:1.55;margin:23px 0 12px}
+#area-05 .rw-worry p{font-size:.83rem;line-height:1.87;color:#3c3740;margin:0 0 13px}
+#area-05 .rw-worry-scene{border:1px solid #e4ddea;border-radius:16px;background:#faf8fb;padding:17px 18px}
+#area-05 .rw-worry-scene>small{display:block;font-size:.74rem;color:#695b75;line-height:1.6;font-weight:800;margin-bottom:13px}
+#area-05 .rw-worry-dialogue{display:grid;gap:7px;margin:15px 0}
+#area-05 .rw-worry-dialogue p{border-radius:7px;border-left:3px solid #b0a0bd;background:#fff;padding:10px 12px;margin:0}
+#area-05 .rw-worry-dialogue p:nth-child(even){background:#eef5f0;border-left-color:#a0bca9}
+#area-05 .rw-worry-spectrum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:16px 0 22px}
+#area-05 .rw-worry-spectrum>div{background:#f0f6f2;border:1px solid #d8e7dc;border-radius:14px;padding:15px 12px}
+#area-05 .rw-worry-spectrum>div:nth-child(2){background:#f7f2f9;border-color:#e9dfed}
+#area-05 .rw-worry-spectrum>div:nth-child(3){background:#fcf1f3;border-color:#ecdde3}
+#area-05 .rw-worry-spectrum small{display:block;font-size:.7rem;font-weight:850;color:#655078}
+#area-05 .rw-worry-spectrum strong{display:block;color:#312a38;font-size:.84rem;line-height:1.65;margin:9px 0}
+#area-05 .rw-worry-spectrum span{display:block;color:#514954;font-size:.74rem;line-height:1.75}
+#area-05 .rw-worry-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 21px}
+#area-05 .rw-worry-compare>div{border-radius:14px;padding:16px;border:1px solid #dbe6dd;background:#f2f7f3}
+#area-05 .rw-worry-compare>div+div{background:#faf2f4;border-color:#ecdde2}
+#area-05 .rw-worry-compare b{display:block;font-size:.83rem;color:#395641;margin-bottom:8px}
+#area-05 .rw-worry-compare>div+div b{color:#754a5b}
+#area-05 .rw-worry-compare small{display:block;color:#514953;font-size:.74rem;line-height:1.76}
+#area-05 .rw-worry .rw-worry-source{font-size:.72rem;color:#605861;border-top:1px dashed #d7ccdf;padding:13px 0}
+#area-05 .rw-worry .rw-worry-ending{padding-top:15px;border-top:2px solid #e8dfeb;margin:11px 0 0;color:#342d3c}
+@media(max-width:760px){#area-05 .rw-worry-spectrum,#area-05 .rw-worry-compare{grid-template-columns:1fr}#area-05 .rw-worry-scene{padding:14px}}
+
+</style>
+<link id="s4-stdict-search-css" rel="stylesheet" href="/assets/common/stdict-search.css?v=20260927v1">
+<link id="s4-article-nav-css" rel="stylesheet" href="/assets/common/article-nav.css?v=20260928v1">
+<!-- REWORD_RELATION_LINK_HUHOEHANDA_V1_20261107 -->
+</head>
+<body data-sitejob-marker="REWORD_RELATION_HUB_V2_20260929">
+<nav id="fs-common-menu" class="fs-common-menu" data-sitejob-marker="GLOBAL_ARTICLE_NAV_V2" aria-label="개별 글 공통 메뉴"><div class="fsn-inner"><a class="fsn-exit" href="/life/reword/">← 상위 지도</a><a class="fsn-brand" href="/">4TH SEASON</a><a class="fsn-domain" href="/learn/">LEARN</a><a class="fsn-domain" href="/world/">WORLD</a><a class="fsn-domain" href="/life/">LIFE</a><a class="fsn-domain insite" href="/insite/">In:Site</a><a class="fsn-series" href="/life/reword/">Re:Word</a><a class="fsn-map" href="/sitemap/">한눈에 보기</a></div></nav>
+<div id="s4-stdict-search" class="s4-dict-search" data-endpoint="/api/stdict" aria-label="표준국어대사전 검색"><form class="s4-dict-form" role="search" autocomplete="off"><span class="s4-dict-badge">사전</span><label class="s4-dict-sr" for="s4-dict-input">표준국어대사전 검색어</label><input id="s4-dict-input" class="s4-dict-input" type="search" inputmode="search" maxlength="80" placeholder="표준국어대사전" aria-label="표준국어대사전 검색"><button class="s4-dict-submit" type="submit" aria-label="사전 검색">⌕</button></form><div class="s4-dict-panel" hidden aria-live="polite"></div></div>
+<header class="site-head"><div class="wrap head-in"><a class="brand" href="/">4번째 계절</a><nav class="nav"><a href="#about">ABOUT</a><a href="#areas">8 AREAS</a><a href="/life/reword/">RE:WORD</a></nav></div></header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="fade">
+      <div class="kicker"><span>Re:Word</span><span>관계의 언어</span></div>
+      <h1><em>말은 짧고,</em>관계는 오래 남습니다.</h1>
+      <p class="lead">“괜찮아.” “됐어.” “신경 쓰지 마.” 우리는 몇 글자로 대화를 끝내지만, 어떤 말은 헤어진 뒤에도 오래 남습니다. <strong>Re:Word는 그 말의 뜻을 맞히기보다, 그 말이 오간 순간과 두 사람 사이에 남은 마음을 읽습니다.</strong></p>
+    </div>
+    <figure class="hero-visual fade">
+      <svg viewBox="0 0 760 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="같은 말을 서로 다르게 받아들이는 두 사람">
+        <rect width="760" height="650" rx="28" fill="#f5f0f7"/>
+        <circle cx="120" cy="110" r="190" fill="#e9dfee"/>
+        <circle cx="700" cy="570" r="230" fill="#f0e2e7"/>
+        <circle cx="190" cy="325" r="52" fill="#665574"/><path d="M100 565 Q115 415 190 410 Q265 415 280 565" fill="#665574"/>
+        <circle cx="570" cy="325" r="52" fill="#916979"/><path d="M480 565 Q495 415 570 410 Q645 415 660 565" fill="#916979"/>
+        <rect x="278" y="125" width="205" height="106" rx="30" fill="#fff" stroke="#d9cedf" stroke-width="2"/>
+        <path d="M360 231 L339 272 L400 231" fill="#fff" stroke="#d9cedf" stroke-width="2"/>
+        <text x="380" y="190" text-anchor="middle" font-size="34" font-weight="700" fill="#41354a" font-family="Pretendard,sans-serif">괜찮아</text>
+        <line x1="282" y1="473" x2="478" y2="473" stroke="#b9a9c2" stroke-width="2" stroke-dasharray="8 10"/>
+        <text x="380" y="509" text-anchor="middle" font-size="16" fill="#4e4a52" font-family="Pretendard,sans-serif">같은 말 · 서로 다른 마음</text>
+      </svg>
+      <figcaption><strong>같은 문장이라고 같은 장면은 아닙니다.</strong> 말한 사람에게는 배려였던 말이 듣는 사람에게는 거리두기로 남을 수도 있습니다.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section paper" id="about">
+  <div class="wrap">
+    <div class="section-head fade"><h2>어떤 말은<br>집에 돌아온 뒤 시작됩니다.</h2><p>그 순간에는 별일 아닌 것 같았는데, 시간이 지나서야 마음에 걸리는 말이 있습니다. 상대가 왜 그렇게 말했는지보다 먼저 떠오르는 것은 대개 그때의 표정, 침묵, 내가 하지 못한 말입니다.</p></div>
+    <div class="prose fade">
+      <p>누군가 “괜찮아”라고 했을 때 정말 괜찮았을 수도 있습니다. 더 말하고 싶지 않았을 수도 있고, 상대를 더 미안하게 만들고 싶지 않았을 수도 있습니다. 때로는 말한 사람 자신도 그 순간의 마음을 정확히 설명하지 못합니다.</p>
+      <p>그래서 관계에서 짧은 말을 읽는 일은 숨은 뜻 하나를 찾아내는 일이 아닙니다. <strong>그 말이 나오기 전에는 무슨 일이 있었는지, 둘은 어떤 사이였는지, 듣는 사람은 무엇으로 받아들였는지, 그리고 그 뒤 대화가 어떻게 달라졌는지</strong>를 함께 보는 일에 가깝습니다.</p>
+      <p>Re:Word의 글은 그래서 사전 뜻에서 시작하지 않습니다. 먼저 한 장면에 오래 머뭅니다. 그 장면 안에서 말한 사람과 들은 사람의 마음이 어긋나는 순간, 좋은 의도가 불편하게 받아들여지는 순간, 아무 말도 하지 않았는데 관계의 거리가 달라지는 순간을 따라갑니다.</p>
+    </div>
+    <div class="scene-grid">
+      <article class="scene fade"><small>SCENE 01</small><div class="dialogue">“됐어. 내가 할게.”</div><p>도움을 거절하는 말일 수도 있고, 기다리다 지친 사람이 더는 기대하지 않겠다고 물러나는 말일 수도 있습니다.</p></article>
+      <article class="scene fade"><small>SCENE 02</small><div class="dialogue">“내가 걱정돼서 그래.”</div><p>진심 어린 관심일 수 있습니다. 그러나 듣는 사람에게는 자신의 선택을 계속 설명해야 하는 압박처럼 느껴질 수도 있습니다.</p></article>
+      <article class="scene fade"><small>SCENE 03</small><div class="dialogue">“너 원래 그렇잖아.”</div><p>오래 본 사람의 익숙한 말처럼 들리지만, 한 번의 행동을 한 사람 전체의 성격으로 굳히는 말이 되기도 합니다.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="pause"><div class="wrap fade"><blockquote>같은 말을 들었는데<br>한 사람은 대화가 끝났다고 생각하고,<br>다른 사람은 그때부터 마음이 시작되기도 합니다.</blockquote><p>관계의 언어는 바로 그 어긋남에 오래 머뭅니다.</p></div></section>
+
+<section class="section" id="areas">
+  <div class="wrap">
+    <div class="section-head fade"><h2>관계의 말은<br>여덟 방향으로 움직입니다.</h2><p>분류는 사람을 규정하기 위한 것이 아니라, 비슷해 보이는 말이 실제 관계에서 어떤 다른 일을 하는지 구별하기 위한 지도입니다. 한 표현이 둘 이상의 영역에 걸칠 수도 있습니다.</p></div>
+    <div class="areas">
+      <article class="area fade" id="area-01"><span class="area-num">01 · EMOTION DEFENSE</span><h3>감정 방어의 말</h3><p>마음이 없어서가 아니라, 마음을 어디까지 보여줄지 몰라 짧아지는 말들입니다.</p><div class="words"><span>괜찮아</span><span>아무것도 아니야</span><span>신경 쓰지 마</span></div>
+<div class="area-source-note" style="margin:18px 0 20px;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#faf8fb">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">약한 모습을 숨기는 말</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">“혼자 있고 싶어”가 언제나 관계를 밀어내는 말은 아닙니다. 실제로 혼자 있는 시간이 필요한 사람도 있고, 지금은 설명할 힘이 없어 잠시 물러나는 사람도 있습니다. “나 원래 그래”도 성향을 설명하는 말일 수 있고, 어떤 순간에는 지금의 어려움을 성격처럼 말하는 방식이 될 수 있습니다. Re:Word는 이런 표현을 숨은 마음 하나로 고정하지 않고, 그 뒤 다시 대화와 관계가 어떻게 이어지는지까지 봅니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW261_V1_20261001 -->
+<div class="area-source-note" style="margin:0 0 20px;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#fff">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">내 감정을 먼저 의심하는 말</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">“내가 예민한가 봐”는 실제로 자기 반성이 필요한 순간에도 나옵니다. 하지만 불편했던 장면을 살피기도 전에 자기 반응부터 틀렸다고 정리하는 말이 될 때도 있습니다. 중요한 것은 예민한지 아닌지를 판정하는 일이 아니라, <strong>무엇이 마음에 걸렸는지 살펴볼 여지를 이 말이 열어 두는지 닫아 버리는지</strong>입니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW262_V1_20261001 -->
+<div class="area-source-note" style="margin:0 0 20px;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#faf8fb">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">기대가 낮아질 때 짧아지는 말</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">“됐어”, “알았어”, “그럴 줄 알았어”가 반복된 실망 뒤에 나올 때는 관계에 거는 기대가 낮아지는 장면이 함께 보일 수 있습니다. 그러나 세 표현 자체가 곧 체념이라는 뜻은 아닙니다. <strong>「됐어」는 무엇을 더 이어 받지 않을지, 「알았어」는 무엇까지 이해했다고 한 것인지, 「그럴 줄 알았어」는 한 사건을 말하는지 사람 전체를 단정하는지</strong>를 각각의 장면에서 따로 읽습니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW263_V1_20261001 -->
+<div class="area-source-note" style="margin:0 0 20px;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#fff">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">상처를 작게 말하는 표현의 차이</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">“별일 아니야”, “그냥 넘어가”, “다 지나간 일이야”는 모두 마음을 크게 드러내지 않는 장면에서 만날 수 있습니다. 하지만 같은 말은 아닙니다. <strong>「별일 아니야」는 사건의 크기를 낮추는 쪽, 「그냥 넘어가」는 지금 이 대화를 더 이어 갈지 정하는 쪽, 「다 지나간 일이야」는 그 일을 어느 시간에 둘지 정하는 쪽</strong>에 더 가깝습니다. 말이 짧다는 이유만으로 셋 모두를 ‘상처를 숨기는 말’로 묶지는 않습니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW264_V1_20261001 -->
+<div class="area-posts">
+  <a href="/gwaenchana"><small>정본 01</small><strong>괜찮아 — 괜찮다고 말했는데 마음이 남는 순간</strong><span>말을 끝냈는데도 마음이 남는 ‘괜찮아’의 장면을 따라갑니다.</span></a>
+  <a href="/na-gwaenchantanikka"><small>정본 02</small><strong>나 괜찮다니까 — 걱정받고 있는데 왜 답답해질까</strong><span>반복되는 확인과 ‘내 말을 믿어 달라’는 마음이 부딪히는 순간을 읽습니다.</span></a>
+  <a href="/amugeotdo-aniya"><small>정본 03</small><strong>아무것도 아니야 — 말하려다 마음을 접는 순간</strong><span>말하려던 일을 스스로 작게 만들고 대화를 접는 순간에 남는 마음을 따라갑니다.</span></a>
+  <a href="/singyeong-sseuji-ma"><small>정본 04</small><strong>신경 쓰지 마 — 관심이 부담이 되는 순간</strong><span>배려·사양·경계가 같은 말 안에서 갈라지고, 관심의 거리를 다시 정하는 순간을 읽습니다.</span></a>
+  <a href="/byeoril-aniya"><small>정본 05</small><strong>별일 아니야 — 작은 일인데 마음에는 남는 순간</strong><span>사건의 크기와 마음의 크기를 분리해, 있었던 일을 작게 말하는 순간을 따라갑니다.</span></a>
+  <a href="/da-jinagan-iriya"><small>정본 06</small><strong>다 지나간 일이야 — 과거가 됐다고 마음까지 끝난 것은 아니다</strong><span>사건은 과거가 되었지만 현재에 남은 영향과 대화의 거리는 따로 움직일 수 있음을 따라갑니다.</span></a>
+  <a href="/geunyang-neomeoga"><small>정본 07</small><strong>그냥 넘어가 — 더 말하지 않기로 하는 순간</strong><span>내가 멈추기로 한 말과 다른 사람이 내 문제 제기를 멈추게 하는 말의 차이를 따라갑니다.</span></a>
+  <a href="/geureol-jul-arasseo"><small>정본 08</small><strong>그럴 줄 알았어 — 기대했던 마음을 먼저 지우는 말</strong><span>예상했다는 말 뒤에 남은 기대와, 한 번의 사건이 사람 전체의 단정으로 바뀌는 순간을 읽습니다.</span></a>
+  <a href="/arasseo"><small>정본 09</small><strong>알았어 — 이해했다는 말이 괜찮다는 뜻은 아니다</strong><span>들음·이해·동의·감정 정리가 한마디 안에서 서로 다른 속도로 움직이는 순간을 읽습니다.</span></a>
+  <a href="/dwaesseo"><small>정본 10</small><strong>됐어 — 무엇이 더는 필요 없다는 말일까</strong><span>충분함·사양·중단·기대 철회가 같은 말 안에서 갈라지는 순간을 읽습니다.</span></a>
+  <a href="/na-wonrae-geurae"><small>정본 11</small><strong>나 원래 그래 — 지금의 나를 성격이라고 말하는 순간</strong><span>오래된 성향과 최근의 상태가 “원래”라는 말 안에서 섞이는 순간을 읽습니다.</span></a>
+  <a href="/gwaenhi-geokjeonghaji-ma"><small>정본 12</small><strong>괜히 걱정하지 마 — 걱정까지 줄여 주고 싶은 순간</strong><span>상대의 걱정을 덜어주려는 배려와, 걱정받는 자신이 부담스러운 마음이 갈라지는 순간을 읽습니다.</span></a>
+  <a href="/honja-itgo-sipeo"><small>정본 13</small><strong>혼자 있고 싶어 — 멀어지고 싶은 걸까, 잠시 쉬고 싶은 걸까</strong><span>회복을 위한 거리와 관계에서 멀어지는 거리가 이후 상호작용에서 어떻게 달라지는지 읽습니다.</span></a>
+  <a href="/gwaenhi-malhaenna"><small>정본 14</small><strong>괜히 말했나 — 마음을 꺼낸 뒤 내 말을 다시 의심하는 순간</strong><span>마음을 말한 뒤 상대 반응을 보며 표현을 고칠지, 말한 일 자체를 후회할지 갈라지는 순간을 읽습니다.</span></a>
+  <a href="/naega-neomu-gidaehaenna-bwa"><small>정본 15</small><strong>내가 너무 기대했나 봐 — 서운함을 기대의 크기로 돌리는 순간</strong><span>기대의 크기보다 그 기대가 내 기준·관계의 반복·상대의 약속 중 어디서 생겼는지 따라갑니다.</span></a>
+  <a href="/naega-isanghan-geonga"><small>정본 16</small><strong>내가 이상한 건가 — 불편한 장면에서 나 자신까지 의심하는 순간</strong><span>장면을 다시 보는 질문이 자기 기준과 존재 전체를 의심하는 질문으로 바뀌는 순간을 읽습니다.</span></a>
+  <a href="/naega-yeminhan-ga-bwa"><small>정본 17</small><strong>내가 예민한가 봐 — 내 반응의 크기를 다시 재는 순간</strong><span>불편함의 원인을 지우지 않으면서 컨디션·누적·경계에 따라 반응의 강도를 다시 보는 순간을 읽습니다.</span></a>
+  <a href="/naega-mwol-baragesseo"><small>정본 18</small><strong>내가 뭘 바라겠어 — 기대할 자리를 스스로 접는 순간</strong><span>기대를 다시 조정하는 단계에서 더 나아가, 반복된 실망 뒤 기대할 자리 자체가 줄어드는 순간을 읽습니다.</span></a>
+</div><!-- REWORD_RELATION_LINK_NAEGA_MWOL_BARAGESSEO_V1_20261002 --></article>
+      <article class="area fade" id="area-02"><span class="area-num">02 · CONVERSATION CONTROL</span><h3>대화 조절의 말</h3><p>조금 멈추고 싶은 사람과 아직 끝내고 싶지 않은 사람이 같은 문장 앞에서 엇갈립니다.</p><div class="words"><span>됐어</span><span>그만하자</span><span>나중에 얘기해</span></div><div class="area-source-note" style="margin:18px 0 0;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#faf8fb"><small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">침묵과 짧은 반응</small><p style="margin:0;color:#29272c;line-height:1.75">“응”, “그래”, “그렇구나”, 혹은 답이 없는 시간은 그것만으로 공감·무관심·체념을 확정하지 못합니다. 같은 짧은 반응도 <strong>대화가 아직 열려 있는지, 잠시 보류된 것인지, 사실상 멈춘 것인지</strong>에 따라 다르게 남습니다. 말의 길이보다 이후 질문이 다시 오고, 답이 이어지고, 멈춘 대화가 실제로 재개되는지를 함께 봅니다.</p></div><!-- REWORD_RELATION_ABSORB_NW256_V1_20261002 -->
+<div class="area-source-note" style="margin:14px 0 0;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#fff">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">같은 대화가 반복될 때</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">같은 이야기가 다시 나오는 이유를 한쪽의 집요함이나 다른 쪽의 무관심으로만 정리하지 않습니다. <strong>한 사람은 아직 해결되지 않았다고 느끼고, 다른 사람은 이미 충분히 다뤘다고 느낄 때</strong> 같은 대화가 서로 다른 시간에 머뭅니다. 반복 자체보다 실제로 달라진 행동·남은 쟁점·다시 이야기할 시점이 있었는지를 함께 봅니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW257_V1_20261002 -->
+<div class="area-source-note" style="margin:14px 0 0;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#faf8fb">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">감정이 올라와 대화를 멈출 때</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">대화를 멈추는 말은 그것만으로 회피나 성숙한 조절로 정해지지 않습니다. <strong>지금 멈추는 이유가 서로 더 다치지 않기 위한 것인지, 불편한 주제를 없애기 위한 것인지</strong>는 멈춘 뒤에 드러납니다. 다시 말할 시점이 생기고 남은 문제가 대화로 돌아오면 일시 정지에 가깝고, 같은 주제마다 멈춤만 반복되면 대화 차단으로 굳어질 수 있습니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW258_V1_20261002 -->
+<div class="area-source-note" style="margin:14px 0 0;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#faf8fb">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">대화를 나중으로 넘길 때</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">“나중”이라는 말만으로 건강한 유예와 회피를 가르지 않습니다. <strong>지금 멈추는 이유보다, 누가 다시 대화를 꺼내고 실제로 언제 돌아오는지가 더 중요합니다.</strong> 다시 말할 시점이 생기고 보류된 질문에 답이 돌아오면 대화는 잠시 미뤄진 것입니다. 반대로 시점과 주도권이 계속 흐려지고 상대만 기다리게 된다면, 같은 보류도 관계에서는 사실상 닫힘으로 남을 수 있습니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW259_V1_20261002 -->
+<div class="area-source-note" style="margin:14px 0 0;padding:18px 19px;border:1px solid rgba(102,85,116,.16);border-radius:16px;background:#fff">
+  <small style="display:block;margin-bottom:7px;color:#665574;font-weight:800">설명을 멈추게 될 때</small>
+  <p style="margin:0;color:#29272c;line-height:1.75">설명을 멈췄다는 사실만으로 마음이 닫혔다고 단정하지 않습니다. <strong>처음부터 말할 생각이 없었던 것인지, 여러 번 설명했지만 받아들여지지 않았다고 느낀 뒤 멈춘 것인지</strong>는 다릅니다. 더 중요한 것은 그 뒤입니다. 다시 말할 자리가 생기는지, 상대의 듣는 방식이 달라지는지, 설명을 멈춘 사람이 관계까지 함께 내려놓는지에 따라 같은 침묵도 다르게 남습니다.</p>
+</div><!-- REWORD_RELATION_ABSORB_NW260_V1_20261002 -->
+<div class="area-posts"><a href="/ikssip"><small>정본 19 · 02/06</small><strong>읽씹 — 답이 없는 시간에 관계를 먼저 해석하게 되는 순간</strong><span>한 번의 미응답과 반복되는 침묵을 나누고, 답이 없던 대화가 이후 실제로 돌아오는지까지 함께 읽습니다.</span></a><a href="/geureokuna"><small>정본 20</small><strong>그렇구나 — 들었다는 말과 함께 있어 주는 말 사이</strong><span>최소한의 반응이 공감이 되는 순간과 대화를 닫는 신호처럼 남는 순간을, 그 뒤 질문·침묵·후속 행동에서 구분합니다.</span></a><a href="/geurae"><small>정본 21</small><strong>그래 — 받아들인 걸까, 더 말하지 않기로 한 걸까</strong><span>상대의 방향에 맞추는 짧은 대답이 내 선택을 남긴 수용인지, 의견을 접은 체념인지 이후 참여와 조정에서 읽습니다.</span></a><a href="/eung"><small>정본 22</small><strong>응 — 대답은 했지만 대화에 들어와 있는지는 다른 문제</strong><span>가장 짧은 참여 신호가 편안한 응답인지, 최소한으로만 대화를 이어 가는 반응인지 이후 질문과 후속 대화에서 읽습니다.</span></a><a href="/geuman-jom-hae"><small>정본 23</small><strong>그만 좀 해 — 지금 멈추고 싶은 걸까, 이 얘기를 없애고 싶은 걸까</strong><span>감정이 버거워 잠시 멈추는 것과 불편한 주제 자체를 막는 것을, 멈춘 뒤 실제로 대화가 돌아오는지에서 구분합니다.</span></a><a href="/tto-sijagine"><small>정본 24</small><strong>또 시작이네 — 이번 말도 듣기 전에 예전 싸움으로 분류되는 순간</strong><span>반복된 갈등에 대한 실제 피로와, 이번 내용을 듣기 전에 과거의 잔소리로 묶어버리는 사전 무효화를 구분합니다.</span></a><a href="/myeot-beoneul-malhae"><small>정본 25</small><strong>몇 번을 말해 — 반복한 횟수보다 달라지지 않은 것이 무엇인지</strong><span>같은 설명을 여러 번 한 사람의 피로와, 반복한 횟수를 합의의 근거처럼 사용하는 경우를 구분해 실제 행동 변화와 합의를 봅니다.</span></a><a href="/tto-geu-yaegiya"><small>정본 26</small><strong>또 그 얘기야 — 같은 이야기가 다시 나오는 데는 이유가 있다</strong><span>같은 주제가 돌아오는 데 지친 마음과, 행동 변화가 없어 다시 꺼낼 수밖에 없는 미해결을 나눠 이전 대화 뒤 실제 변화가 있었는지 봅니다.</span></a><a href="/yeollakhalge"><small>정본 27 · 02/06</small><strong>연락할게 — 약속으로 남을까, 인사말로 사라질까</strong><span>다음 연락의 주도권을 맡겠다는 말이 실제 후속 연락으로 이어지는 약속인지, 반복적으로 기다림만 남기는 거리 신호인지 봅니다.</span></a><a href="/saenggakhae-bolge"><small>정본 28</small><strong>생각해 볼게 — 시간이 필요한 걸까, 답을 미루는 걸까</strong><span>판단과 대답을 미래로 넘긴 뒤 실제 답이 돌아오는지, 아니면 가능성만 남긴 채 보류가 반복되는지 봅니다.</span></a><a href="/jigeumeun-pigonhae"><small>정본 29</small><strong>지금은 피곤해 — 쉬고 싶은 걸까, 이 대화만 피하고 싶은 걸까</strong><span>실제로 대화할 힘이 없는 순간과 특정 주제에서만 반복적으로 대화가 닫히는 경우를, 피로가 지난 뒤 대화가 다시 돌아오는지에서 구분합니다.</span></a><a href="/najunge-yaegihaja"><small>정본 30 · 02/07</small><strong>나중에 얘기하자 — 멈춘 대화가 다시 돌아올 자리가 있는가</strong><span>감정을 가라앉히기 위한 유예와 중요한 이야기를 계속 미래로 미루는 닫힘을, 실제 대화 재개와 재개 책임의 방향에서 구분합니다.</span></a><a href="/deo-malhamyeon-ssawo"><small>정본 31 · 02/07</small><strong>더 말하면 싸워 — 싸움을 피하는 멈춤이 대화까지 없애지는 않으려면</strong><span>갈등이 더 커질 것을 예상해 상처를 막는 멈춤과, 갈등 가능성 자체를 피하며 문제까지 대화 밖으로 밀어내는 경우를 구분합니다.</span></a><a href="/jigeum-malhaji-malja"><small>정본 32 · 02/07</small><strong>지금 말하지 말자 — 감정을 멈추기 위한 경계가 대화까지 막지는 않으려면</strong><span>현재의 감정을 조절하기 위한 일시적 경계와 특정 문제의 발언권을 계속 막는 차단을, 경계 해제 뒤 대화가 다시 가능한지에서 구분합니다.</span></a><a href="/yeogikkaji-haja"><small>정본 33 · 02/06/07</small><strong>여기까지 하자 — 대화의 끝일까, 관계의 끝일까</strong><span>지금 서 있는 지점을 끝으로 삼는 말이 대화·갈등·관계 중 무엇을 가리키는지 앞말과 후속 행동에서 구분합니다.</span></a><a href="/geumanhaja"><small>정본 34 · 02/07</small><strong>그만하자 — 더 말하면 서로를 다치게 할 것 같을 때</strong><span>지금 이어지는 말과 감정의 흐름을 함께 멈추는 정지어가 관계 보호의 경계인지, 반복되는 발언 차단인지 이후 대화 재개에서 구분합니다.</span></a><a href="/seolmyeong-an-hae"><small>정본 35 · 02</small><strong>설명 안 해 — 내 이유를 더 이상 건네고 싶지 않은 순간</strong><span>설명하지 않을 권리와 이해받으려는 시도를 거두는 관계적 철회를, 그전의 대화와 이후 남는 통로에서 구분합니다.</span></a><a href="/dwaetda-naega-mareul-malji"><small>정본 36 · 02</small><strong>됐다, 내가 말을 말지 — 꺼낸 말을 다시 삼키는 순간</strong><span>이미 시작한 설명을 지쳐 거두는 말이 순간적인 정지인지, 이해받으려는 기대가 줄어든 체념인지 이후 재대화에서 읽습니다.</span></a><a href="/malhaedo-molla"><small>정본 37 · 02</small><strong>말해도 몰라 — 이해받지 못할 거라는 마음이 먼저 닫힐 때</strong><span>경험의 차이와 반복된 오해 뒤에 생긴 ‘이해하지 못할 것’이라는 예상이 실제 관계에서 어떻게 대화를 닫는지 읽습니다.</span></a><a href="/malhae-mwo-hae"><small>정본 38 · 02</small><strong>말해 뭐 해 — 말해도 달라지는 게 없다고 느낄 때</strong><span>상대의 이해 가능성보다, 말을 해도 관계나 행동이 달라지지 않을 것 같아 말의 효과에 대한 기대를 거두는 순간을 읽습니다.</span></a></div><!-- REWORD_RELATION_LINK_MALHAE_MWO_HAE_V1_20261010 --></article>
+      <article class="area fade" id="area-03"><span class="area-num">03 · RESPONSIBILITY SHIFT</span><h3>부담과 책임 이동의 말</h3><p>부탁이나 호의 자체가 부담인 것은 아닙니다. 다만 가까운 사이라는 이유로 상대의 <strong>시간·기다림·돈·도움</strong>을 이미 쓸 수 있는 몫처럼 전제하면, 한 사람의 사정이 다른 사람의 일정과 비용으로 옮겨 갈 수 있습니다. “금방 가”, “조금만 기다려”도 실제 선택권이 남아 있고 예상 시간과 부담이 함께 조정된다면 평범한 부탁일 수 있습니다. 반대로 거절하기 어려운 분위기에서 기다리는 시간과 이후 책임이 한쪽에만 남는다면 같은 말은 다르게 들립니다. 도움 뒤의 “고마운 줄 알아”도 단순한 감사 확인일 수 있지만, 그 호의가 이후의 양보나 복종을 요구하는 <strong>빚</strong>처럼 남기 시작하면 도움의 의미가 달라집니다. “넌 착하잖아”처럼 사람의 성격이나 평판을 부탁의 근거로 쓰면, 거절은 단순한 선택이 아니라 ‘착하지 않은 행동’처럼 느껴질 수 있습니다. “이 정도는 해줄 수 있잖아”는 부탁의 크기를 화자가 먼저 작게 정하면서, 상대가 느끼는 비용이나 사정을 말하기 어렵게 만들 수 있습니다. 물론 가까운 사이의 가벼운 부탁일 수도 있습니다. 다만 거절했을 때 설명이나 미안함을 더 많이 요구하고, 부탁의 크기를 계속 상대 대신 정한다면 요청은 선택보다 압박에 가까워집니다. “네가 알아서 해”도 상대에게 선택권을 온전히 맡기는 말일 수 있습니다. 그러나 함께 결정해야 할 일에서 판단만 넘긴 뒤 결과가 좋지 않을 때 책임까지 상대에게 남긴다면, 자유를 준 것이 아니라 <strong>결정과 결과의 부담을 함께 넘긴 것</strong>이 됩니다. 이 영역에서는 부탁을 했다는 사실보다 상대에게 거절권이 있었는지, 비용과 책임을 함께 조정했는지, 도움 이후의 의무가 새로 생겼는지, 사람에 대한 평가나 ‘이 정도’라는 판단이 상대의 선택을 대신하고 있지는 않은지, 결정을 맡긴 사람이 결과의 책임에서도 빠지고 있지는 않은지를 함께 봅니다.</p><div class="words"><span>네가 알아서 해</span><span>너 편한 대로 해</span><span>난 말했어</span><span>금방 가</span><span>조금만 기다려</span><span>고마운 줄 알아</span><span>넌 착하잖아</span><span>이 정도는 해줄 수 있잖아</span><span>너는 괜찮지</span></div><div class="area-posts"><a href="/neoneun-gwaenchanji"><small>정본 39 · 03/05</small><strong>너는 괜찮지 — 가까운 사람의 시간을 이미 비워 둔 것처럼 말할 때</strong><span>가까운 사이라는 이유로 상대의 시간과 여유를 이미 가능한 것으로 전제하는 순간을, 실제로 “안 돼”라는 답이 일정에 반영되는지에서 읽습니다.</span></a><a href="/geumbang-ga"><small>정본 40 · 03</small><strong>금방 가 — 기다리는 사람의 시간이 멈춰 서는 말</strong><span>짧은 도착 예상이 계속 빗나가는데도 정보가 갱신되지 않을 때, 기다리는 사람의 다음 선택과 시간이 어떻게 보류되는지 읽습니다.</span></a><a href="/don-gajigo-chisahage"><small>정본 41 · 03</small><strong>돈 가지고 치사하게 — 정산을 꺼낸 사람이 작아지는 순간</strong><span>정산과 비용 분담을 말한 사람에게 ‘인색하다’는 관계 평가가 되돌아가면서, 돈의 기준을 말하기 어렵게 되는 장면을 읽습니다.</span></a><a href="/geumbang-gapeulge"><small>정본 42 · 03</small><strong>금방 갚을게 — 기다리는 사람만 기한을 세는 약속</strong><span>상환을 약속한 날이 지나고도 ‘금방’만 반복될 때, 기약 없는 기다림과 확인의 부담이 누구에게 남는지 읽습니다.</span></a><a href="/eunhyereul-arayaji"><small>정본 43 · 03</small><strong>은혜를 알아야지 — 도움을 기억하라는 말이 거절을 막을 때</strong><span>오래전 받은 도움을 기억하는 마음이 지금의 거절을 어렵게 만드는 순간을, 부탁과 후속 대화에서 읽습니다.</span></a><a href="/naega-dowajwosseunikka"><small>부탁과 대가 · 03</small><strong>내가 도와줬으니까 — 부탁이 당연한 몫이 되는 순간</strong><span>전에 도와준 일을 근거로 지금의 부탁을 꺼냈을 때, 상대의 사정과 선택권은 얼마나 남아 있는지 읽습니다.</span></a><a href="/naega-neohante-eotteoke-haenneunde"><small>정본 45 · 03</small><strong>내가 너한테 어떻게 했는데 — 서운함이 지난 호의의 목록이 될 때</strong><span>초대받지 못한 서운함을 말하다 지난번에 베푼 일을 하나씩 꺼내는 순간, 현재 사건의 설명이 우정 전체의 해명으로 바뀌는 장면을 읽습니다.</span></a><a href="/gomaun-jul-ara"><small>고마움의 표현</small><strong>고마운 줄 알아 — 고맙다고 말했는데도 부족했던 밤</strong><span>분명 고맙다고 말했는데도 얼굴과 반응으로 마음을 다시 평가받는 순간, 감사가 어떻게 증명해야 할 일이 되는지 읽습니다.</span></a><a href="/nega-jeil-jalhajana"><small>능력과 역할</small><strong>네가 제일 잘하잖아 — 칭찬을 들은 사람이 또 일을 맡게 되는 밤</strong><span>실력을 인정받는 말 뒤에서 일이 반복해서 한 사람에게 몰릴 때, 거절과 분담의 여지가 어떻게 달라지는지 읽습니다.</span></a><a href="/nega-chama"><small>갈등과 분담</small><strong>네가 참아 — 조용한 식탁을 위해 한 사람에게 남겨진 일</strong><span>분담을 이야기하다 “네가 참아”라는 말로 대화가 멈출 때, 갈등을 미루는 일과 책임을 떠안는 일이 어떻게 다른지 읽습니다.</span></a><a href="/nega-ihaehae"><small>해석과 이해</small><strong>네가 이해해 — 그 사람의 사정을 들은 뒤에도 내 마음이 남을 때</strong><span>한 사람의 사정을 설명하는 말이 다른 사람의 속상함까지 잠재우려 할 때, 누구의 이야기가 남는지 읽습니다.</span></a><a href="/neon-chakhajanha"><small>착함과 양보 · 03</small><strong>넌 착하잖아 — 양보하지 않은 날, 달라진 친구의 표정</strong><span>착한 사람이라는 말이 반복해서 양보를 기대하게 될 때, 그 사람의 선택권이 어떻게 달라지는지 바닷가 여행의 후속 대화로 읽습니다.</span></a><a href="/hal-su-itji"><small>부탁과 승낙 · 03</small><strong>할 수 있지 — 대답하기 전에 이미 정해진 부탁</strong><span>가능 여부를 묻지만 답을 듣기 전에 여행 운전 담당을 정했을 때, 단체채팅방의 침묵과 이후 대화가 어떻게 달라지는지 읽습니다.</span></a><a href="/eoryeoun-butak-anijanha"><small>부담을 가늠하는 말 · 03</small><strong>어려운 부탁 아니잖아 — 부탁한 사람에게는 쉬웠던 일</strong><span>친구에게 가구 배송을 대신 받아 달라고 부탁하는 장면. 문만 열면 된다는 말 뒤에서 기다림과 확인, 판단 책임이 누구에게 남는지 읽습니다.</span></a><a href="/jamkkan-imyeon-dwae"><small>시간의 약속 · 03</small><strong>잠깐이면 돼 — 짧을 줄 알았던 부탁이 저녁을 가져갈 때</strong><span>잠깐 휴대전화 설정을 도와주려다 저녁 한 시간을 내어주게 된 장면. 예상보다 길어졌을 때 새로 시간을 묻는지, 다음 만남의 마음이 달라지는지 읽습니다.</span></a><a href="/i-jeongdoneun-haejul-su-itjana"><small>친밀함과 거절 · 03</small><strong>이 정도는 해줄 수 있잖아 — 가까운 사이라는 이유로 거절이 어려워질 때</strong><span>오래된 친구의 병원 동행 부탁. 가까운 사이라는 믿음이 거절을 듣는 기준으로 바뀌는 순간을 다음 날의 답장까지 읽습니다.</span></a><a href="/maeumdaero-hae"><small>정본 55 · 03</small><strong>마음대로 해 — 허락을 받았는데도 마음이 멀어진 저녁</strong><span>결정을 넘기는 허락처럼 들렸지만 대화가 끝났다고 느낀 사람. 다음 날의 반응으로 선택과 체념의 차이를 읽습니다.</span></a><a href="/nega-jeonghae"><small>정본 56 · 03</small><strong>네가 정해 — 선택은 맡겼는데 결과는 혼자 책임져야 할 때</strong><span>이사업체를 고르라는 말을 들은 사람. 결과가 달라지자 선택의 책임이 누구에게 남는지 다음 날 대화까지 읽습니다.</span></a><a href="/amugeona"><small>선호와 선택</small><strong>아무거나 — 배려하려던 말이 상대에게 선택을 맡긴 저녁</strong><span>“아무거나”라며 양보했지만 제안마다 거절한 저녁. 어떤 말과 후속 행동이 선택의 수고를 나누는지 읽습니다.</span></a><a href="/nega-araseo-hae"><small>업무와 책임 · 03</small><strong>네가 알아서 해 — 맡긴 일은 있는데 물어볼 곳이 없는 오후</strong><span>일을 맡겼지만 문자 승인 권한은 없었던 문화센터의 오후. 신뢰와 방치가 갈라지는 다음 대화를 읽습니다.</span></a></div><!-- REWORD_RELATION_LINK_NEGA_ARASEO_HAE_V1_20261018 --><!-- REWORD_RELATION_LINK_AMUGEONA_V1_20261018 --><!-- REWORD_RELATION_LINK_NEGA_JEONGHAE_V1_20261018 --><!-- REWORD_RELATION_LINK_MAEUMDAERO_HAE_V1_20261018 --><!-- REWORD_RELATION_LINK_I_JEONGDONEUN_HAEJUL_SU_ITJANA_V1_20261018 --><!-- REWORD_RELATION_LINK_JAMKKAN_IMYEON_DWAE_V1_20261018 --><!-- REWORD_RELATION_LINK_EORYEOUN_BUTAK_ANIJANHA_V1_20261018 --><!-- REWORD_RELATION_LINK_HAL_SU_ITJI_V1_20261018 --><!-- REWORD_RELATION_LINK_NEON_CHAKHAJANHA_V1_20261018 --><!-- REWORD_RELATION_LINK_NEGA_IHAEHAE_V1_20261018 --><!-- REWORD_RELATION_LINK_NEGA_CHAMA_V1_20261018 --><!-- REWORD_RELATION_LINK_NEGA_JEIL_JALHAJANA_V1_20261018 --><!-- REWORD_RELATION_LINK_GOMAUN_JUL_ARA_V1_20261018 --><!-- REWORD_RELATION_LINK_NAEGA_NEOHANTE_EOTTEOKE_HAENNEUNDE_V1_20261017 --><!-- REWORD_RELATION_LINK_NAEGA_DOWAJWOSSEUNIKKA_V1_20261017 --><!-- REWORD_RELATION_LINK_EUNHYEREUL_ARAYAJI_V1_20261017 --><!-- REWORD_RELATION_LINK_GEUMBANG_GAPEULGE_V1_20261017 --><!-- REWORD_RELATION_LINK_DON_GAJIGO_CHISAHAGE_V1_20261017 --><!-- REWORD_RELATION_LINK_GEUMBANG_GA_V1_20261010 --><!-- REWORD_RELATION_LINK_NEONEUN_GWAENCHANJI_V1_20261010 --><!-- REWORD_RELATION_HUB_ABSORB_NW121_DECISION_RESPONSIBILITY_V1_20261010 --></article>
+      <article class="area fade" id="area-04"><span class="area-num">04 · ROLE FIXING</span>
+<h3>평가와 역할 고정의 말</h3>
+<p>“넌 참 착해.” 힘든 일을 대신 맡아준 사람에게 고맙다는 마음으로 건네는 말일 수 있습니다. 하지만 며칠 뒤 그 사람이 이번에는 어렵다고 하자 “너 원래 그런 거 잘 들어주잖아”라는 대답이 돌아온다면, 칭찬은 조금 다르게 들립니다. 이전에 잘해 준 일이 앞으로도 해야 하는 몫이 되기 때문입니다. 좋은 평가를 받았던 사람이 그 기대를 거절하려면, 단지 부탁을 사양하는 것뿐 아니라 자신이 정말 착한지까지 설명해야 할 것처럼 느끼기도 합니다.</p>
+<div class="role-patterns" aria-label="칭찬이 역할 기대로 옮겨가는 네 가지 장면">
+  <div><b>착함 · 양보를 맡김</b><span>“넌 참 착하잖아.” → 이번에도 네가 양보하라는 기대</span></div>
+  <div><b>강함 · 감정을 참게 함</b><span>“넌 강하잖아.” → 힘들다는 말을 하기 어려워짐</span></div>
+  <div><b>밝음 · 분위기를 맡김</b><span>“너는 늘 밝잖아.” → 오늘도 웃어 줘야 할 것 같음</span></div>
+  <div><b>능력 · 일을 계속 맡김</b><span>“네가 제일 잘하잖아.” → 다음 일도 자연스럽게 맡게 됨</span></div>
+</div>
+<p class="role-reading">그렇다고 칭찬이 곧 부담을 주려는 말은 아닙니다. 좋은 점을 알아봐 주는 마음과 상대를 이용하려는 마음은 같은 것이 아닙니다. 뜻이 갈라지는 곳은 <strong>그 사람이 기대와 다르게 행동해도 관계가 편안하게 이어지는가</strong>에 있습니다. “오늘은 쉬고 싶어”라는 말이 받아들여진다면 칭찬은 인정으로 남을 수 있습니다. 그러나 거절할 때마다 “너답지 않다”거나 “전에는 잘했잖아”라는 평가가 붙으면, 한 번의 특성이 계속 지켜야 할 역할로 굳어집니다.</p>
+<div class="words"><span>넌 참 착해</span><span>넌 강하잖아</span><span>너는 늘 밝아</span><span>네가 제일 잘하잖아</span><span>너 원래 그래</span><span>역시 너답다</span><span>그럴 줄 알았어</span></div>
+<div class="area-posts">
+  <a href="/geureol-jul-arasseo"><small>함께 읽기 · 사람 단정</small><strong>그럴 줄 알았어 — 기대했던 마음을 먼저 지우는 말</strong><span>한 번의 실망이 “원래 그런 사람”이라는 판단으로 이어지는 상황을 읽습니다.</span></a>
+  <a href="/neon-chakhajanha"><small>함께 읽기 · 착함과 양보</small><strong>넌 착하잖아 — 양보하지 않은 날, 달라진 친구의 표정</strong><span>착한 사람이라는 평가가 다음번 양보의 이유가 되는 순간과 거절 뒤의 반응을 읽습니다.</span></a>
+  <a href="/nega-jeil-jalhajana"><small>함께 읽기 · 능력과 업무</small><strong>네가 제일 잘하잖아 — 칭찬을 들은 사람이 또 일을 맡게 되는 밤</strong><span>능력을 인정하는 말 뒤에서 같은 사람에게 일이 반복해서 모일 때의 선택권을 읽습니다.</span></a>
+<a href="/neo-animyeon-nuga-hagesseo"><small>함께 읽기 · 유일한 사람의 부담</small><strong>너 아니면 누가 하겠어 — 믿는다는 말 뒤에 혼자 남은 사람</strong><span>가족이 가장 믿는 사람에게 병원 동행이 반복되면서, 다른 선택이 가능한지 다시 묻는 이야기입니다.</span></a>
+<a href="/neon-balgaseo-joa"><small>함께 읽기 · 밝음과 감정의 역할</small><strong>넌 밝아서 좋아 — 웃고 싶지 않은 날에도 웃어야 하는 사람</strong><span>늘 밝던 사람도 조용한 날이 있습니다. 그날의 다른 표정을 관계가 받아들일 수 있는지 따라 읽습니다.</span></a>
+<a href="/neon-ganghajana"><small>함께 읽기 · 강함과 도움 요청</small><strong>넌 강하잖아 — 강한 사람에게 허락되지 않는 약함</strong><span>늘 잘 버틴다는 믿음이 도움을 요청할 자리를 지워 버리는 순간을 읽습니다.</span></a>
+<a href="/neon-cham-chakhae"><small>함께 읽기 · 친절과 좋은 사람의 평판</small><strong>넌 참 착해 — 한 번의 친절이 내 이름처럼 따라붙을 때</strong><span>도와준 일을 칭찬받은 뒤, 다음 부탁에는 스스로 거절을 망설이는 마음을 읽습니다.</span></a>
+<a href="/neon-hangsang-geurae"><small>함께 읽기 · 과거의 실망과 현재의 말</small><strong>넌 항상 그래 — 오늘의 실수에 지난 실망이 한꺼번에 몰려올 때</strong><span>오늘의 사건에 지난 서운함이 한꺼번에 모일 때, 무엇을 확인할 수 있는지 읽습니다.</span></a>
+<a href="/neodapda"><small>함께 읽기 · 익숙한 이름과 새로운 모습</small><strong>너답다 — 웃으며 붙인 별명이 달라진 나를 알아보지 못할 때</strong><span>친밀한 농담이 예전의 모습에 머무를 때, 지금의 자신을 새로 보여 줄 기회를 따라 읽습니다.</span></a>
+<a href="/neoneun-wonrae-geurae"><small>함께 읽기 · 행동과 성격 평가</small><strong>너는 원래 그래 — 한 번의 실수로 내가 어떤 사람인지 정해질 때</strong><span>고쳐야 할 잘못과 사람 전체를 가리키는 판정이 엇갈리는 순간을 읽습니다.</span></a>
+<a href="/jangnan-do-mot-bada"><small>함께 읽기 · 농담 이후의 관계</small><strong>장난도 못 받아 — 웃지 않았다는 이유로 내가 분위기를 망친 사람이 될 때</strong><span>웃지 않았다는 이유로 분위기까지 책임져야 했던 사람의 말과, 그다음 대화를 읽습니다.</span></a>
+<a href="/byeolgeotdo-aninde"><small>함께 읽기 · 감정과 사건의 크기</small><strong>별것도 아닌데 — 작은 일이라는 말이 마음까지 작게 만들 때</strong><span>물건의 값과 기억의 의미가 달라지는 부엌의 대화, 그리고 뒤늦게 의미를 묻는 장면입니다.</span></a>
+<a href="/yeminhage-gulji-ma"><small>함께 읽기 · 불편과 성격 평가</small><strong>예민하게 굴지 마 — 잠 좀 자고 싶다는 말이 성격 문제가 되는 밤</strong><span>늦은 밤 소리를 낮춰 달라는 구체적인 부탁이 개인의 예민함을 따지는 말로 바뀌는 장면입니다.</span></a>
+<a href="/yunan-tteolji-ma"><small>함께 읽기 · 기쁨과 남의 시선</small><strong>유난 떨지 마 — 엄마의 첫 무대에서 박수를 접은 딸</strong><span>가족의 첫 공연에서 반가운 박수가 남들의 시선을 의식하게 만드는 순간과 다음 대화를 읽습니다.</span></a>
+<a href="/jalnan-cheokhaji-ma"><small>함께 읽기 · 좋은 소식과 비교</small><strong>잘난 척하지 마 — 좋은 소식을 전하려다 말을 삼킨 날</strong><span>서로 다른 공모 결과를 안고 만난 두 친구의 기쁨과 실망, 그리고 다음 말을 읽습니다.</span></a>
+<a href="/un-joatne"><small>함께 읽기 · 성취의 원인</small><strong>운 좋았네 — 합격 소식 뒤에 사라진 연습의 시간</strong><span>세 번째 실기시험에 합격한 사람이 운이라는 축하 옆에 지난 연습의 시간도 놓고 싶었던 저녁을 읽습니다.</span></a>
+<a href="/geu-jeongdoneun-nuguna-hae"><small>함께 읽기 · 서로 다른 출발점</small><strong>그 정도는 누구나 해 — 서른여덟에 처음 자전거를 탄 날</strong><span>서른여덟에 처음 자전거를 배우고 300미터를 달린 뒤, 누구나 한다는 말이 남긴 마음을 읽습니다.</span></a>
+<a href="/geuge-mwo-daedanhan-geoya"><small>함께 읽기 · 결과의 크기와 의미</small><strong>그게 뭐 대단한 거야 — 작은 손잡이 하나에 담긴 긴 시간</strong><span>아파트 출입구에 손잡이 하나를 설치하기까지의 시간을 알아봐 주는 대화.</span></a>
+<a href="/dadeul-haneunde"><small>함께 읽기 · 다수의 관행과 선택의 자유</small><strong>다들 하는데 — 근황을 말하지 않을 자유가 사라진 자리</strong><span>모두가 근황을 말하는 자리에서, 말하지 않을 사람의 선택을 어떻게 받아들일까요?</span></a>
+<a href="/neoman-wae-geurae"><small>함께 읽기 · 집단에서 혼자 다른 선택</small><strong>너만 왜 그래 — 사진 한 장에서 혼자 다른 사람이 된 순간</strong><span>도예 모임의 사진을 공개할 때 한 사람만 얼굴 노출을 원하지 않는 순간을 읽습니다.</span></a>
+<a href="/namdeureun-da-hae"><small>함께 읽기 · 남의 선택과 우리 집의 기준</small><strong>남들은 다 해 — 다른 집의 기준이 우리 집의 의무가 되는 순간</strong><span>방학 프로그램을 선택하는 가족의 식탁에서, 남의 결정이 왜 나의 부족함처럼 느껴지는지 따라 읽습니다.</span></a>
+<a href="/nuguneun-jalhadeon-de"><small>함께 읽기 · 방법 참고와 능력 비교</small><strong>누구는 잘하던데 — 처음 만든 영상보다 오래 남은 비교</strong><span>처음 만든 가족 영상의 자막을 고치는 이야기와, 그 과정에서 형의 이름이 능력의 기준이 되는 순간을 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_NUGUNEUN_JALHADEON_DE_V1_20261023 -->
+<!-- REWORD_RELATION_LINK_NAMDEUREUN_DA_HAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEOMAN_WAE_GEORAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_DADEUL_HANEUNDE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_GEUGE_MWO_DAEDANHAN_GEOYA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_GEU_JEONGDONEUN_NUGUNA_HAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_UN_JOATNE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_JALNAN_CHEOKHAJI_MA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_YUNAN_TTEOLJI_MA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_YEMINHAGE_GULJI_MA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_BYEOLGEOTDO_ANINDE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_JANGNAN_DO_MOT_BADA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEONEUN_WONRAE_GEURAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEODAPDA_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEON_HANGSANG_GEURAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEON_CHAM_CHAKHAE_V1_20261022 -->
+<!-- REWORD_RELATION_LINK_NEON_GANGHAJANA_V1_20261021 -->
+<!-- REWORD_RELATION_LINK_NEON_BALGASEO_JOA_V1_20261020 --></div><!-- REWORD_RELATION_LINK_NEO_ANIMYEON_NUGA_HAGESSEO_V1_20261020 -->
+<!-- REWORD_RELATION_CROSSLINK_NW081_V1_20261001 -->
+<!-- REWORD_RELATION_HUB_ABSORB_NW076_PRAISE_ROLE_V1_20261018 -->
+<section class="role-person-judgment" aria-labelledby="person-judgment-title">
+  <div class="role-rule"></div>
+  <h4 id="person-judgment-title">한 번의 행동이 ‘원래 그런 사람’으로 굳는 순간</h4>
+  <div class="judgment-scene">
+    <p class="judgment-scene-label">금요일 저녁 7시 20분 · 가족 모임 식당 앞</p>
+    <p>세 번째 가족 모임에도 동생이 늦었습니다. 형은 먼저 들어간 가족들이 언제 시작할지 묻는 전화를 여러 번 받았습니다. 기다린 사람이 화나는 데는 충분한 이유가 있었습니다.</p>
+    <p class="judgment-quote">“또 늦었네. 몇 시에 올지 알려 줬으면 좋겠어.”</p>
+    <p>그러나 이어진 말은 다른 곳으로 갑니다.</p>
+    <p class="judgment-quote tone">“넌 원래 남 생각 안 하잖아. 앞으로도 그러겠지.”</p>
+    <p>지각이라는 행동을 이야기할 때 동생은 늦게 된 상황과 다음 약속을 어떻게 지킬지 말할 수 있습니다. 하지만 ‘원래 남 생각 안 하는 사람’이라는 판정이 내려지면, 동생은 지각을 설명하는 대신 자기 자신이 그런 사람이 아니라는 사실부터 변호해야 합니다. <strong>불편을 만든 행동은 여전히 문제지만, 대화의 대상이 사건에서 사람 전체로 옮겨간 것</strong>입니다.</p>
+  </div>
+  <div class="judgment-flow" role="group" aria-label="구체적 행동을 성격 전체로 확대하는 세 단계">
+    <div><b>1. 있었던 일</b><span>“오늘 20분 늦었다.”</span><small>관찰 가능한 사건</small></div>
+    <div><b>2. 사람의 판정</b><span>“넌 원래 이기적이야.”</span><small>행동에서 성격 전체로</small></div>
+    <div><b>3. 미래의 잠금</b><span>“넌 앞으로도 안 바뀌어.”</span><small>다른 모습을 보일 기회 축소</small></div>
+  </div>
+  <p>그렇다고 반복된 지각이나 약속 위반을 그냥 넘어가야 한다는 뜻은 아닙니다. 세 번이나 늦었다면 반복 사실을 짚고 바뀌어야 할 행동을 요구할 수 있습니다. “세 번 연속 기다렸어. 다음에는 늦어질 때 미리 연락해 줬으면 해”라는 말은 단호하지만, 오늘 이후 달라질 행동을 상상할 여지를 남깁니다. 반면 “너는 원래 그래”라는 말은 행동의 변화보다 사람의 본성을 증명하라는 요구가 되기 쉽습니다.</p>
+  <div class="judgment-dialogue-grid">
+    <div class="judgment-dialogue"><b>다시 대화가 열리는 경우</b><p>“늦은 건 분명 속상했어. 왜 그랬는지 듣고, 다음 약속은 어떻게 할지 정하자.”</p><span>사건의 책임과 다음 행동을 함께 다룸</span></div>
+    <div class="judgment-dialogue"><b>사람 전체를 닫아 버리는 경우</b><p>“무슨 설명을 해도 넌 똑같아. 원래 그런 사람이잖아.”</p><span>해명과 변화의 가능성이 미리 기각됨</span></div>
+  </div>
+  <p>‘그럴 줄 알았어’, ‘너 원래 그래’, ‘역시 너답다’는 여러 차례의 경험을 바탕으로 한 실망일 수도 있고, 말을 꺼낸 사람 자신의 상처를 감추는 방식일 수도 있습니다. 중요한 것은 상대의 마음을 한 가지로 단정하는 것이 아닙니다. <strong>서로가 무엇을 확인하고 바꿀 수 있는지 묻는 다음 대화가 가능한가</strong>를 보는 일입니다. 누군가 한 번 잘못했다고 그 사람의 모든 시간이 하나의 성격으로 설명되는 것은 아니니까요.</p>
+  <p class="judgment-research">관련 연구: 사람의 행동에 붙이는 특성 이름과 사람에게 부여하는 성격 추론을 구분한 <a href="https://doi.org/10.1177/0146167293195004" rel="noopener noreferrer">Newman &amp; Uleman(1993)</a>, 구체적인 불만과 인격 전체를 향한 비판을 구분한 <a href="https://www.gottman.com/blog/self-care-criticism/" rel="noopener noreferrer">Gottman Institute 해설</a>을 참고했습니다. 어느 한 사람의 의도를 진단하거나 모든 성격 평가가 틀렸다는 뜻은 아닙니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW083_TRAIT_LABEL_V1_20261020 -->
+
+<section class="emotion-judgment" aria-labelledby="emotion-judgment-title">
+  <h4 id="emotion-judgment-title">“예민하게 굴지 마” — 마음을 말한 사람이 설명해야 할 것이 달라질 때</h4>
+  <div class="emotion-scene">
+    <p class="emotion-scene-time">월요일 오전 10시 05분 · 회사 팀 단체 채팅방</p>
+    <p>발표를 앞둔 팀의 자료를 함께 검토하는 중이었습니다. 지민이 만든 표의 숫자 하나가 잘못됐고, 민석이 단체 채팅방에 “이건 누가 이렇게 만든 거야? 다들 웃고 넘어갈 일이 아니네”라는 말을 남겼습니다. 지민도 오류를 확인했고 곧 수정했습니다. 하지만 자신의 실수가 여러 사람 앞에서 농담처럼 다뤄진 데는 마음이 쓰였습니다.</p>
+    <div class="emotion-dialogue" aria-label="감정을 말했을 때의 대화">
+      <p><b>지민</b><span>“숫자는 제가 잘못 넣었어요. 고칠게요. 그런데 단체방에서 그렇게 이야기하니까 좀 민망했어요.”</span></p>
+      <p><b>민석</b><span>“그걸 그렇게까지 받아들여? <strong>예민하게 굴지 마.</strong> 그냥 분위기 풀려고 한 말이야.”</span></p>
+      <p><b>지민</b><span>“제가 잘못한 건 알아요. 그래도…”</span></p>
+    </div>
+    <p>지민이 처음 꺼낸 말은 “숫자가 틀리지 않았다”는 항변이 아니었습니다. 오류는 수정하되, 그 오류를 지적받는 방식이 부끄러웠다는 이야기였습니다. 그러나 “예민하게 굴지 마”라는 말이 들어오자 대화의 초점이 바뀝니다. 민석이 어떤 표현을 썼는지는 뒤로 밀리고, <strong>지민이 왜 그렇게까지 마음을 쓰는 사람인지</strong>가 먼저 설명해야 할 문제가 됩니다.</p>
+  </div>
+  <div class="emotion-flow" role="group" aria-label="감정 표현이 성격 평가로 이동하는 과정">
+    <div><b>처음의 이야기</b><span>“그 말을 공개된 자리에서 듣고 민망했어.”</span><small>사건과 그때의 감정</small></div>
+    <div><b>되돌아온 평가</b><span>“너무 예민하게 받아들이네.”</span><small>감정 반응의 적절성 판정</small></div>
+    <div><b>바뀐 대화의 부담</b><span>“내가 이상하게 느낀 건가?”</span><small>원래 문제보다 자기 감정 설명이 앞섬</small></div>
+  </div>
+  <p>말한 사람에게도 사정이 있을 수 있습니다. 민석은 급한 발표를 준비하느라 조급했을 수도 있고, 농담으로 분위기를 풀어 주려 했을 수도 있습니다. 지민이 그날 유난히 지쳐 있었을 가능성도 있습니다. <strong>그러나 상대의 의도를 좋게 해석하는 것과 자신의 감정이 실제로 있었다는 사실을 지우는 것은 다릅니다.</strong> “내가 농담으로 말했어”는 말한 사람의 의도에 대한 설명이지, 듣는 사람이 민망할 수 없었다는 증명은 아닙니다.</p>
+  <p>그렇다고 상대가 느낀 감정을 인정하면 모든 사실 판단에 동의해야 하는 것도 아닙니다. 민석은 “내가 그런 뜻으로 말한 건 아니었어”라고 설명할 수 있고, 자료 오류를 수정해야 한다는 요구도 그대로 할 수 있습니다. 동시에 “여러 사람이 있는 곳에서 그렇게 들릴 수 있었겠네”라고 말할 수 있습니다. 감정에 귀를 기울이는 것은 누가 옳은지 판정을 포기하는 것이 아니라, <strong>사실을 다투는 대화와 마음을 듣는 대화를 한쪽이 가로막지 않게 하는 일</strong>에 가깝습니다.</p>
+  <div class="emotion-followup" aria-label="다음 대화에서 갈라지는 두 가지 반응">
+    <div><b>다시 말할 수 있게 되는 답</b><p>“오류를 알려주려던 거였는데, 단체방에서는 창피했겠다. 다음에는 개인 메시지로 먼저 말할게. 수정은 어디까지 됐어?”</p><small>사실 문제를 유지하면서 감정도 들음</small></div>
+    <div><b>마음의 설명이 막히는 답</b><p>“이 정도에도 상처받으면 앞으로 어떻게 일하려고 그래? 또 예민하다고 할 거야?”</p><small>다음번 감정 표현 자체가 부담이 됨</small></div>
+  </div>
+  <p>같은 “예민하게 굴지 마”라도 무조건 상대를 무시하려는 계산된 말이라고 단정할 수는 없습니다. 가까운 사람의 흥분을 가라앉히려는 서툰 표현일 수도 있습니다. 그러나 듣는 사람이 “나는 그 말을 듣고 불편했어”라고 다시 이야기했을 때까지 그 감정을 성격 탓으로만 돌린다면, 다음에는 아예 마음을 말하지 않게 될 수도 있습니다. 말 뒤의 관계는 한 문장에서 결정되지 않고, 그 말을 다시 설명하거나 바꿀 기회를 서로 내어주는지에서 달라집니다.</p>
+  <p class="emotion-research">참고: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6212305/" rel="noopener noreferrer">Zielinski &amp; Veilleux(2018), 지각된 정서 비타당화 연구</a> 및 <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003372700" rel="noopener noreferrer">한국판 지각된 정서 비타당화 척도 타당화</a>. 이 연구들은 감정 경험을 부정당한다고 지각하는 현상을 다룹니다. 위의 가상 대화에서 개인의 심리 상태나 의도를 진단하는 근거는 아닙니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW086_EMOTION_JUDGMENT_V1_20261020 -->
+
+<section class="achievement-attribution" aria-labelledby="achievement-title">
+  <h4 id="achievement-title">“운 좋았네” — 축하를 들었는데 애써 온 시간이 사라지는 순간</h4>
+  <div class="achievement-scene">
+    <p class="achievement-time">금요일 저녁 6시 40분 · 작은 식당의 창가 자리</p>
+    <p>윤지는 여섯 달 만에 이직에 성공했다. 다니던 회사를 그만두지 않고 퇴근 뒤 자격 공부를 했고, 주말에는 친구에게 면접 질문을 부탁했다. 첫 지원에서는 서류에서 떨어졌고 두 번째 면접에서는 마지막 질문을 제대로 답하지 못했다. 세 번째 회사에서 합격 연락을 받은 오늘, 윤지는 약속 장소에 조금 일찍 도착했다. 휴대전화 화면을 두어 번 다시 열어 보면서.</p>
+    <p>친구 현우는 자리에 앉자마자 축하한다고 말했다. 윤지도 웃었다. 이야기는 합격한 회사로, 면접에서 나왔던 질문으로 자연스럽게 넘어갔다.</p>
+    <div class="achievement-dialogue" aria-label="축하가 엇갈리는 첫 대화">
+      <p><b>윤지</b><span>“이번에는 내가 준비했던 프로젝트를 자세히 물어보더라고. 그때 좀 자신이 생겼어.”</span></p>
+      <p><b>현우</b><span>“오, <strong>운 좋았네.</strong> 딱 아는 게 나왔구나.”</span></p>
+      <p><b>윤지</b><span>“운도 있었지. 그래도 그 프로젝트 설명은 연습을 엄청 했어.”</span></p>
+      <p><b>현우</b><span>“요즘 취업 어렵다는데 타이밍이 진짜 좋았나 봐. 어쨌든 붙었으면 됐지.”</span></p>
+    </div>
+    <p>윤지는 물컵을 만지작거렸다. 현우가 악의를 갖고 말했다고 생각하지는 않았다. 기쁜 소식을 듣고 친근하게 한 말일 수도 있었다. 회사의 채용 시기와 면접 질문은 정말 운이 좋았다고 느끼는 부분이기도 했다. 그런데 “운 좋았네”가 거듭 나오는 동안, 몇 번의 불합격과 연습 노트를 펼쳐 두었던 밤들이 대화에서 점점 보이지 않았다.</p>
+    <p>그가 알아주길 바란 것은 ‘내가 전부 해냈다’는 인정이 아니었다. <strong>뜻밖의 기회가 있었던 것과 그 기회를 붙잡기 위해 자신이 준비한 일도 있었다는 사실</strong>이었다.</p>
+  </div>
+  <p>결과가 좋을 때 우리는 이유를 찾습니다. 재능이 좋아서, 노력해서, 문제가 쉬워서, 운이 따라서라고 이야기합니다. 성공의 원인은 한 가지가 아닐 수 있습니다. 그래서 “운 좋았네”라는 말도 틀렸다고 단정할 수 없습니다. 다만 <em>어떤 원인을 먼저 말하고, 다른 원인에 대한 이야기를 끝까지 듣는지</em>에 따라 축하의 모양은 달라집니다.</p>
+
+  <div class="achievement-axes" aria-label="성취를 설명할 때 서로 다른 네 요소">
+    <div><b>준비한 시간</b><span>반복 연습·지원·수정</span><small>“그동안 많이 준비했구나.”</small></div>
+    <div><b>쌓아 온 능력</b><span>경험·기술·판단</span><small>“그 경험이 도움이 됐겠네.”</small></div>
+    <div><b>상황의 조건</b><span>면접 질문·채용 기준</span><small>“이번에는 질문이 잘 맞았네.”</small></div>
+    <div><b>예상 밖의 행운</b><span>기회·시기·우연</span><small>“좋은 타이밍도 있었지.”</small></div>
+  </div>
+
+  <h5>축하하는 사람은 운을 말했고, 듣는 사람은 지워진 시간을 들었다</h5>
+  <p>현우에게 “운 좋았네”는 기쁨에 동참하는 말이었을 수 있습니다. 실력만으로 모든 것을 통제할 수 없는 세상에서 좋은 기회를 만난 친구를 축하하는 마음이기도 했을 것입니다. 가볍게 웃으며 나누던 평소 말투였을 수도 있습니다. 말한 사람의 속마음을 한 문장으로 확정할 이유는 없습니다.</p>
+  <p>그런데 윤지에게는 다른 맥락이 있었습니다. 현우는 첫 탈락 직후 윤지가 약속을 취소하고 혼자 울었던 밤을 알고 있었습니다. 면접 준비를 도와준 적도 있었습니다. 그래서 윤지는 “운 좋았네”보다 “그동안 고생했는데 잘됐다”는 말을 기대했을지 모릅니다. <strong>같은 말이 어떤 사람에게는 우연을 함께 기뻐하는 표현이고, 다른 사람에게는 자신이 쏟은 시간이 인정받지 못하는 순간</strong>이 될 수 있습니다.</p>
+  <p>말의 의미가 갈리는 지점은 운이라는 단어 자체가 아닙니다. 윤지가 준비한 과정을 말했을 때 현우가 다음에 어떤 반응을 보이느냐입니다. “그러네. 잘 준비해 뒀으니까 그런 질문이 나왔을 때 답할 수 있었겠다”라고 말한다면 두 사람은 같은 성취를 더 넓게 볼 수 있습니다. 반대로 “그건 누구나 준비하지. 이번에는 그냥 운이 좋아서 된 거야”라고 반복하면 윤지는 자신의 노력을 설명하려고 더 많은 말을 해야 합니다.</p>
+
+  <div class="achievement-shift" role="group" aria-label="축하가 노력의 축소로 바뀌는 흐름">
+    <div><b>성취를 알림</b><span>“나 합격했어.”</span><small>기쁨을 나누려는 순간</small></div>
+    <div><b>원인을 하나로 좁힘</b><span>“운 좋았네.”</span><small>준비·경험의 설명이 밀림</small></div>
+    <div><b>과정을 이야기하기 어려워짐</b><span>“나도 많이 노력했는데…”</span><small>기쁨보다 자기 증명이 앞섬</small></div>
+  </div>
+
+  <h5>행운을 인정하는 것과 노력을 지우는 것은 다르다</h5>
+  <p>윤지도 모든 결과가 자신의 공이라고 주장할 수는 없습니다. 같은 능력을 가진 지원자가 서로 다른 기회를 만날 수 있고, 면접관이 어떤 질문을 하는지에 따라 결과가 달라질 수도 있습니다. 그 사실을 인정한다고 해서 윤지가 쓴 시간까지 사라지는 것은 아닙니다. 반대로 윤지가 노력했다는 사실을 인정한다고 해서 우연의 몫이 전혀 없었다고 말할 필요도 없습니다.</p>
+  <p>문제는 둘 중 하나를 선택해야 한다는 듯한 대화입니다. “운이 좋았던 거야”라는 말을 듣고 “아니, 내가 잘한 거야”로만 맞서면 두 사람은 축하의 자리에서 원인에 대한 판정을 시작하게 됩니다. 사실 윤지가 기대한 말은 운의 몫을 계산하는 정답이 아니라, 자신이 그 기회를 만나기까지 걸어온 시간을 알아보는 반응일 수 있습니다.</p>
+  <p>그리고 늘 좋은 결과를 내는 사람이라고 해서 늘 운이 좋은 것은 아닙니다. 성취한 사람을 향한 다른 감정, 이를테면 부러움이나 자신과의 비교가 말에 섞일 수도 있습니다. 그렇다고 “운 좋았네”라는 표현을 썼다는 이유만으로 상대의 질투를 확정해서는 안 됩니다. 같은 말을 한 사람이 다음 문장에서 상대의 준비와 성취를 인정할 수도 있기 때문입니다.</p>
+
+  <div class="achievement-followup" aria-label="다음 말에 따라 달라지는 두 가지 반응">
+    <div>
+      <b>성취의 과정을 다시 만나는 답</b>
+      <p>“면접 질문도 잘 맞았지만, 네가 연습한 내용이니까 답할 수 있었겠지. 떨어지고도 다시 준비한 거 대단해. 정말 축하해.”</p>
+      <small>우연을 부정하지 않으면서 준비한 시간을 알아봄</small>
+    </div>
+    <div>
+      <b>성취를 계속 우연으로 돌리는 답</b>
+      <p>“그 정도 준비는 다들 하지. 이번에는 네가 운이 좋았던 거야. 너무 의미 둘 건 없어.”</p>
+      <small>성과를 말한 사람이 자기 노력을 설명해야 함</small>
+    </div>
+  </div>
+  <p>그날 현우가 윤지의 표정을 보고 이렇게 물었다면 대화는 조금 달라졌을 것입니다. “내가 운 얘기만 해서 서운했어? 네가 준비한 거 아는데 말이 그렇게 나왔네.” 윤지도 “좋은 기회였다는 건 알아. 다만 오늘은 내가 애쓴 것도 같이 축하받고 싶었어”라고 말할 수 있었을 것입니다. 서로의 의도를 다르게 짐작해도 다음 대화에서 확인할 수 있다는 사실이 관계를 이어 줍니다.</p>
+  <p><strong>“운 좋았네”는 좋은 기회를 만난 사람과 기쁨을 나누는 말일 수 있습니다. 그러나 그 사람의 노력과 능력을 듣지 않고 성취의 이유를 우연 하나로 닫을 때, 축하의 말은 성취한 사람이 자신의 시간을 다시 증명해야 하는 말이 됩니다.</strong></p>
+  <p class="achievement-research">참고: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9849577/" rel="noopener noreferrer">「Ability or luck: A systematic review of interpersonal attributions of success」(2022)</a>는 타인의 성취를 능력 또는 행운으로 설명하는 판단이 상황에 따라 달라진다고 검토합니다. <a href="https://www.sciencedirect.com/science/article/pii/S0361476X20300266" rel="noopener noreferrer">Bernard Weiner의 「An attributional theory of motivation」(2020)</a>은 사람들이 성취 결과의 원인을 어떻게 이해하는지 다룹니다. 두 연구 모두 위의 가상 대화에서 특정 인물의 의도를 직접 검증한 자료는 아닙니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW091_ACHIEVEMENT_ATTRIBUTION_V1_20261020 -->
+
+<section class="comparison-of-people" aria-labelledby="comparison-title">
+  <h4 id="comparison-title">“누구는 잘하던데” — 다른 사람의 결과가 내 평가표로 돌아오는 순간</h4>
+  <div class="comparison-scene">
+    <p class="comparison-kicker">수요일 오후 5시 52분 · 회사 회의실, 발표 직후</p>
+    <p>회의실 문을 닫자 천장에서 돌아가던 빔프로젝터 팬 소리가 멈췄습니다. 서영은 노트북 전원을 끄지 못하고 발표 자료의 마지막 장을 다시 들여다보았습니다. 신제품 사용 설명회를 맡은 지 두 번째 주였습니다. 오늘은 질문 세 개에 바로 답하지 못했습니다. 참석자에게 다음 날 확인해 주겠다고 약속했고, 발표 뒤에는 그 질문을 따로 적었습니다.</p>
+    <p>팀장도 아쉬웠을 겁니다. 고객 앞에서 설명이 매끄럽지 못했고, 서영이 준비한 자료에는 실제 사용 장면이 부족했습니다. 분명 보완할 부분이 있었습니다. 서영은 어떤 장을 바꿔야 할지 들을 생각으로 의자를 당겼습니다.</p>
+    <div class="comparison-dialogue" aria-label="발표 뒤 회의실에서 오간 대화">
+      <p><b>팀장</b><span>“오늘 질문 대응이 아쉽더라. <strong>누구는 잘하던데.</strong> 지난주에 지호 발표하는 거 못 봤어?”</span></p>
+      <p><b>서영</b><span>“봤어요. 지호 씨는 고객 질문을 먼저 모아두셨더라고요. 저도 다음에는 그걸 해보려고요.”</span></p>
+      <p><b>팀장</b><span>“그런 차이가 결국 실력인 거지. 지호는 한번 맡기면 알아서 잘해. 네가 좀 더 보고 배워야겠어.”</span></p>
+    </div>
+    <p>서영은 “고객 질문을 미리 모으자”는 방법에는 동의했습니다. 그런데 대화가 끝난 뒤 오래 남은 것은 그 방법이 아니라 <strong>‘지호보다 못하는 사람’이라는 자리에 자신이 놓였다는 느낌</strong>이었습니다. 지호는 이 제품을 일 년 넘게 다뤘고, 서영은 이번 달 처음 발표를 맡았습니다. 팀장이 그 차이를 모를 리는 없었습니다. 그래도 그 순간 그 조건들은 대화에서 빠져 있었습니다.</p>
+    <p>퇴근길 지하철에서 서영은 고객의 질문보다 지호의 발표 영상을 다시 떠올렸습니다. 당장 고쳐야 할 슬라이드보다, 다음번에도 자신이 그 사람만큼 못하면 어쩌나 하는 마음이 앞섰습니다.</p>
+  </div>
+
+  <h5>사례를 보여 주는 말과 사람을 나란히 세우는 말은 다르다</h5>
+  <p>“누구는 잘하던데”라는 말이 늘 상처를 주기 위해 나온다고 할 수는 없습니다. 말을 꺼낸 사람은 좋은 사례를 알려 주고 싶었을 수 있습니다. 이미 잘하는 사람이 어떤 자료를 만들었는지 함께 보면 실제로 도움이 되기도 합니다. 배워야 할 방법이 분명하고, 필요한 지원이 뒤따른다면 비교는 일을 개선할 단서가 될 수 있습니다.</p>
+  <p>하지만 좋은 사례를 이야기하는 대신 <em>그 사람만큼 하지 못하는 너</em>를 이야기하기 시작하면 비교의 기능이 달라집니다. 서영에게 필요했던 것은 질문을 미리 수집하는 방법이나 발표 전에 동료와 연습할 시간이었는데, 팀장은 지호라는 사람을 기준으로 서영의 전체 능력을 평가했습니다. 그러면 서영은 실수를 설명하기 전에 자신이 누구보다 뒤처진 사람이 아니라는 점부터 증명해야 할 것 같습니다.</p>
+  <p>비교는 원래 두 대상을 함께 놓는 일입니다. 그러나 비교 대상의 경험, 준비 시간, 맡은 과업이 다르다면 같은 결과처럼 놓는 것부터 불공평할 수 있습니다. <strong>비교할 수 있다는 사실과 같은 잣대로 평가해도 된다는 판단은 별개</strong>입니다.</p>
+  <div class="comparison-path" role="group" aria-label="비교가 개선 제안에서 사람 평가로 이동하는 과정">
+    <div><b>도움이 되는 출발</b><span>“지호는 질문을 미리 정리했어.”</span><small>관찰할 수 있는 방법</small></div>
+    <div><b>초점의 이동</b><span>“누구는 잘하던데.”</span><small>방법에서 사람 사이의 순위로</small></div>
+    <div><b>남은 부담</b><span>“나는 왜 저 사람만큼 못할까?”</span><small>실행 계획보다 자기 평가가 앞섬</small></div>
+  </div>
+
+  <h5>비교를 들은 사람이 어떤 관계에 놓였는지도 중요하다</h5>
+  <p>친구가 “나는 저 사람이 발표하는 방법을 배워 보고 싶어”라고 이야기할 때와, 상사가 “저 사람은 잘하던데 너는 왜 못해”라고 이야기할 때는 서로 다른 부담이 생깁니다. 앞의 말은 참고할 대상을 함께 찾는 제안일 수 있습니다. 뒤의 말은 평가권을 가진 사람이 누군가의 성취를 상대의 부족함을 확인하는 기준으로 사용하는 상황이기 때문입니다.</p>
+  <p>서영은 발표가 부족했다는 지적 자체를 거절하려는 것이 아닙니다. 고객이 궁금해한 질문에 즉시 답하지 못했다는 사실을 알고 있습니다. 그런데 그 사실을 고치는 일과 ‘지호보다 못하는 사람’이라는 평가를 받아들이는 일은 같지 않습니다. 서영이 “지호 씨와 제 담당 기간이 달라요”라고 말할 때도 변명으로 끝내지 말고, 무엇이 필요하고 어떤 점을 바꿀 수 있는지 다시 이야기할 수 있어야 합니다.</p>
+  <p>상대의 발전을 진심으로 바라는 사람도 비교 표현을 서툴게 사용할 수 있습니다. 반대로 친절한 어조로 말해도 계속 특정 사람을 기준으로 압박하는 경우가 있습니다. 목소리의 부드러움이나 단어 하나보다, 상대가 자신의 조건과 어려움을 말했을 때 <strong>그 정보를 실제 다음 행동에 반영하는지</strong>를 살펴야 합니다.</p>
+
+  <div class="comparison-followup" aria-label="다음 대화가 갈라지는 두 가지 방식">
+    <div>
+      <b>방법을 함께 찾는 후속 대화</b>
+      <p>“지호가 미리 모은 질문 목록이 도움이 됐지. 네 발표도 다음에는 질문을 먼저 정리해 보자. 경험이 다르니까 이번 주에는 내가 고객 답변 자료를 같이 볼게.”</p>
+      <small>차이를 인정하면서 실제로 바꿀 행동과 지원을 제시함</small>
+    </div>
+    <div>
+      <b>순위를 남기는 후속 대화</b>
+      <p>“다른 사람들은 다 잘하는데 너만 매번 설명해야 하니? 지호는 이런 말 안 해. 이런 것도 못하면 계속 맡기기 어렵지.”</p>
+      <small>구체적인 개선 방법보다 비교 대상과의 간격이 계속 평가 기준이 됨</small>
+    </div>
+  </div>
+
+  <h5>비교를 멈추자는 말은 배우지 말자는 뜻이 아니다</h5>
+  <p>사람은 다른 사람을 보며 배웁니다. 누군가 더 잘하는 모습을 관찰하면서 자신에게 부족했던 방법을 찾기도 합니다. 사회비교 이론은 타인의 성과를 기준으로 자신의 능력과 위치를 이해하려는 과정을 설명합니다. 하지만 누구를, 어떤 조건에서, 어떤 목적으로 비교하는지에 따라 반응은 달라질 수 있습니다. 위의 서영과 팀장은 이론을 설명하기 위해 만든 가상의 대화이지 연구에서 실제 관찰한 사례가 아닙니다.</p>
+  <p>서영이 다음 날 팀장에게 물어볼 수 있는 질문은 “제가 지호 씨보다 못한 사람인가요?”가 아닐 것입니다. “제가 놓친 고객 질문은 무엇인가요? 지호 씨가 사용한 질문 목록을 받을 수 있을까요? 다음 발표 전에 20분만 리허설을 봐 주실 수 있나요?” 같은 말입니다. 이는 비교를 무시하는 반응이 아니라, 비교에서 빠졌던 <em>실제로 바꿀 수 있는 조건</em>을 다시 대화로 불러오는 행동입니다.</p>
+  <p>팀장도 다른 방식으로 이야기할 수 있습니다. “지호가 했던 방법 중에 질문을 미리 모은 부분은 참고할 만해. 네가 아직 제품 경험이 적으니 이번에는 내가 예상 질문을 보태 줄게.” 이 말은 지호의 성과를 지우지 않습니다. 서영의 부족한 점도 모른 척하지 않습니다. 다만 그 차이를 사람의 가치나 자격에 대한 판단으로 곧장 바꾸지 않습니다.</p>
+  <p>어느 날 서영이 지호와 비슷하게 발표를 해내더라도, 그날이 비교의 끝일지는 알 수 없습니다. 또 다른 선배와, 또 다른 성과가 등장할 수도 있기 때문입니다. 그래서 계속 누군가를 따라잡아야만 괜찮은 사람이 되는 방식보다, 서영이 자기 일에서 무엇을 익히고 무엇을 고쳤는지를 말할 수 있는 관계가 중요합니다.</p>
+  <p><strong>“누구는 잘하던데”는 배울 만한 장면을 가리키는 말일 수 있습니다. 하지만 그 사람의 결과를 상대의 부족함을 판정하는 기준으로만 쓰고 서로 다른 조건과 필요한 지원을 듣지 않을 때, 이 말은 배우자는 제안보다 비교에서 벗어날 수 없는 평가로 남습니다.</strong></p>
+  <p class="comparison-research">참고: <a href="https://journals.sagepub.com/doi/10.1177/001872675400700202" rel="noopener noreferrer">Festinger(1954), 「A Theory of Social Comparison Processes」</a>는 사회비교의 기본 이론을 제안했습니다. <a href="https://researchers.mq.edu.au/en/publications/a-social-comparison-theory-meta-analysis-60-years-on/" rel="noopener noreferrer">Gerber·Wheeler·Suls, 「A social comparison theory meta-analysis 60+ years on」</a>은 비교 대상의 선택과 자기 평가·정서 반응이 어떻게 달라지는지 연구를 종합합니다. 이 연구들이 모든 비교 발화의 효과나 위 장면 속 팀장의 실제 의도를 직접 입증한다는 뜻은 아닙니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW096_SOCIAL_COMPARISON_V1_20261020 -->
+</article>
+      <article class="area fade" id="area-05"><span class="area-num">05 · CONTROL & BOUNDARY</span><h3>통제와 경계 침범의 말</h3><p>걱정과 관심은 가까움의 표현이지만, 상대의 선택을 대신하기 시작하면 다른 감정이 남습니다.</p><div class="words"><span>내가 걱정돼서 그래</span><span>다 너 잘되라고</span><span>그건 하지 마</span></div>
+
+
+
+
+<section class="rw-worry" aria-labelledby="rw-worry-title">
+  <div class="rw-worry-kicker">5-1 · 걱정처럼 보이는 통제</div>
+  <h4 id="rw-worry-title">“다 너 잘되라고 하는 말이야” — 걱정이 상대의 일정을 정하기 시작할 때</h4>
+
+  <div class="rw-worry-scene">
+    <small>화요일 저녁 8시 15분 · 부모와 딸의 집 식탁 · 가상으로 재구성한 장면</small>
+    <p>서른 살 지아는 다음 주에 처음 열리는 그림책 제작 모임의 안내문을 식탁 위에 펼쳤다. 평일에는 사무실에서 일하고, 일요일 오전마다 석 달 동안 작업하는 과정이었다. 수강료도 몇 달간 모아 둔 돈으로 낼 생각이었다. 오래 망설이다 지원한 모임이었기에 선발됐다는 연락을 받았을 때는 밤늦도록 안내문을 다시 읽었다.</p>
+    <p>아버지는 다른 것을 먼저 걱정했다. 최근 지아가 야근하고도 새벽까지 그림을 그리다 잠을 제대로 자지 못한 날이 많았다. 휴일마저 약속으로 채우면 지치지 않을까 싶었다. 회사에서 실력을 쌓을 교육을 받는 것이 더 현실적인 선택 아닐까 하는 생각도 했다. 지아는 아버지의 우려를 이미 알고 있었고, 업무량을 살피며 중간에 그만둘 수도 있다고 생각했다.</p>
+    <div class="rw-worry-dialogue">
+      <p><b>지아</b> “이 모임에 붙었어. 일요일 오전이라 출근하는 날이랑 겹치진 않아. 일단 해 보려고.”</p>
+      <p><b>아버지</b> “네가 요즘 얼마나 피곤한데. 그런 데 시간 쓰지 말고 자격증 공부하는 게 낫지 않겠니?”</p>
+      <p><b>지아</b> “그래서 석 달 일정이랑 회사 업무도 확인했어. 해 보고 힘들면 조정할게.”</p>
+      <p><b>아버지</b> “내가 직무교육 상담을 토요일에 예약해 뒀어. 그림 모임은 취소해. 다 너 잘되라고 하는 말이야.”</p>
+    </div>
+    <p>지아는 아버지가 자신의 앞날을 걱정한다는 사실을 의심하지 않았다. 하지만 부탁하지 않은 상담이 이미 예약돼 있다는 말에 마음이 무거워졌다. 이제 해야 할 일은 모임을 다닐지 정하는 것이 아니라, <strong>아버지가 자신을 위해 준비한 일을 거절해도 되는지 설명하는 것</strong>처럼 느껴졌다.</p>
+    <p>아버지는 도움을 주고 싶었고, 지아는 그 도움을 고맙게 받을 수도 있었다. 둘의 대화가 어긋난 지점은 걱정의 진심이 아니라 <strong>누가 최종 일정을 정하고 선택할 수 있는가</strong>였다.</p>
+  </div>
+
+  <div class="rw-worry-spectrum" role="group" aria-label="관심과 간섭, 통제를 구분하는 세 단계">
+    <div>
+      <small>관심 · 묻는 말</small>
+      <strong>“요즘 피곤해 보이는데, 괜찮겠어?”</strong>
+      <span>상대의 상황을 듣고 필요한 도움을 물을 수 있다.</span>
+    </div>
+    <div>
+      <small>간섭 · 방향을 미리 정하는 말</small>
+      <strong>“그 모임보다 자격증 공부를 해야지.”</strong>
+      <span>상대가 이미 검토한 이유보다 자신의 우려를 우선한다.</span>
+    </div>
+    <div>
+      <small>통제에 가까워질 때</small>
+      <strong>“내가 예약했으니 그쪽으로 가.”</strong>
+      <span>동의 없이 선택을 실행하고, 거절의 부담을 상대에게 남긴다.</span>
+    </div>
+  </div>
+
+  <h5>위험을 알려 주는 조언과 결정을 대신하는 행동</h5>
+  <div class="rw-worry-compare" role="group" aria-label="걱정을 설명하는 말과 결정권을 대신하는 말 비교">
+    <div>
+      <b>걱정을 말하고 선택권을 남길 때</b>
+      <p>“잠이 부족한 건 좀 걱정돼. 모임을 시작하면 쉬는 시간을 어떻게 정할 생각이야? 필요하면 내 의견도 말해 줄게.”</p>
+      <small>우려를 구체화하고, 필요한 정보와 도움을 선택할 기회를 준다.</small>
+    </div>
+    <div>
+      <b>걱정을 이유로 선택을 대신할 때</b>
+      <p>“네가 아직 몰라서 그래. 내가 널 위해 알아봤으니까 시키는 대로 해. 거절하면 네 앞날을 생각 안 하는 거지.”</p>
+      <small>걱정의 진심을 상대가 따라야 할 의무로 바꾼다.</small>
+    </div>
+  </div>
+
+  <p>지아는 다음 날 “모임을 해 보면서 무리하게 되면 조정하겠다”고 구체적인 일정을 보여 줄 수 있다. 아버지도 자신의 예약이 먼저였음을 인정하고 “필요한 상담이라면 같이 알아볼까?”라고 다시 물을 수 있다. 그러면 전날의 말은 불안을 표현하는 방식이 서툴렀던 장면으로 새로 읽힐 여지가 생긴다. 반대로 지아가 반대할 때마다 아버지가 “널 위한 일이잖아”라는 이유로 결정을 반복한다면, 지아는 앞으로 자신이 원하는 일을 이야기하는 데 점점 조심스러워질 수도 있다. 그러나 그것도 하나의 가능성이지, 한 장면만으로 관계 전체를 판정할 근거는 아니다.</p>
+  <p><strong>걱정의 내용이 옳은지</strong>와 <strong>상대 대신 행동할 권한이 있는지</strong>는 따로 물어야 한다. 정말 건강이나 안전에 위험이 있다면 더 적극적으로 확인하고 도울 이유가 있을 수 있다. 다만 위험을 알려 주는 것과 상대의 일상적 선택을 사전 동의 없이 대신 집행하는 일은 같지 않다.</p>
+  <p>강하게 선택을 제한하는 표현과 심리적 반발의 관계를 종합한 연구에서도 언어가 자유를 위협한다고 인식될 때 분노와 반박적 생각이 늘어나는 경향이 보고됐다. 하지만 연구의 평균적 경향으로 지아나 아버지의 실제 마음을 진단할 수는 없다. <strong>그 말의 의미는 상대가 거절·수정·재선택을 할 수 있는 다음 대화에서 더 또렷해진다.</strong></p>
+  <p class="rw-worry-source">참고: “Message effects on psychological reactance: meta-analyses” (2026), <i>Human Communication Research</i> 52(1), 38–52. <a href="https://doi.org/10.1093/hcr/hqaf016" rel="noopener noreferrer">연구 DOI</a>. 28개 논문·33개 연구의 메타분석이며, 특정 가족 관계의 동기와 결과를 증명하는 근거로 사용하지 않았다.</p>
+  <p class="rw-worry-ending"><strong>“다 너 잘되라고 하는 말이야”는</strong> 상대의 미래를 걱정하고 도움을 건네는 말일 수 있지만, 그 미래에 대한 선택권까지 대신 가져올 수 있는 말은 아니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW072_WORRY_CONTROL_V1_20261023 -->
+<section class="rw-care" aria-labelledby="rw-care-title">
+  <div class="rw-care-kicker">5-2 · 사랑과 관심을 앞세우는 간섭</div>
+  <h4 id="rw-care-title">“사랑하니까 하는 말이야” — 걱정이 사생활을 대신 결정한 저녁</h4>
+  <div class="rw-care-scene">
+    <small>금요일 밤 9시 17분 · 함께 사는 두 사람의 부엌 · 이해를 위한 가상 장면</small>
+    <p>지호는 설거지를 끝내고 휴대전화를 식탁 끝에 놓았다. 회사에서는 회의가 길어져 연락을 두 번 놓쳤다. 퇴근길에는 충전도 다 되어 있었다. 현관에서 자신을 기다리던 연인 나래가 “무슨 일 난 줄 알았어”라고 했을 때, 지호는 진심으로 미안했다. 늦어질 것 같으면 한 줄 남기기로 한 약속을 지키지 못했기 때문이다.</p>
+    <p>나래에게도 이유가 있었다. 몇 달 전 지호가 계단에서 발을 삐끗한 뒤 연락이 끊겼던 날, 나래는 한동안 크게 놀랐다. 오늘도 시계를 몇 번이나 보며 기다렸을 것이다. 그러나 지호가 자리를 비운 사이, 나래는 예전에 길 찾기 앱을 함께 쓰느라 알려 준 잠금 번호로 지호의 휴대전화를 열어 메시지 목록을 확인했다. 단체 대화방에서 오간 사적인 농담까지 읽었다. 지호가 그것을 알아차린 것은 나래가 동료의 이름을 먼저 꺼냈을 때였다.</p>
+    <div class="rw-care-talk">
+      <p><b>지호</b> “내가 늦은 건 미안해. 그런데 그 대화 내용은 어떻게 알았어?”</p>
+      <p><b>나래</b> “휴대전화에 메시지 왔길래 봤어. 연락이 안 되니까 너무 걱정돼서.”</p>
+      <p><b>지호</b> “그 번호는 길 찾을 때 쓰라고 알려 준 거잖아. 메시지까지 읽어도 된다는 뜻은 아니었어.”</p>
+      <p><b>나래</b> “우리가 남도 아니고. 사랑하니까 하는 말이야. 그 정도는 믿어 줘야 하는 거 아니야?”</p>
+    </div>
+    <p>지호는 연락을 놓친 잘못을 인정하면서도 자기 대화가 읽힌 일이 불편했다. 나래는 자신이 걱정했다는 사실을 알아주기를 바랐다. 두 사람의 말이 어긋난 것은 ‘사랑하느냐’의 답이 달라서가 아니었다. <strong>걱정할 권리와 사적인 대화에 접근할 허락</strong>이 같은 것인지를 다르게 보고 있었기 때문이다.</p>
+  </div>
+  <div class="rw-care-flow" role="group" aria-label="걱정과 간섭의 경계">
+    <div><small>① 진짜로 있는 마음</small><strong>“연락이 안 돼서 걱정됐어.”</strong><span>불안을 말하고 도움을 요청할 수 있다.</span></div>
+    <div><small>② 생략된 확인</small><strong>“그러니까 휴대전화를 봐도 돼.”</strong><span>걱정이라는 이유로 허락의 범위를 넓힌다.</span></div>
+    <div><small>③ 남은 문제</small><strong>“내 불편함을 말하면 사랑을 의심하는 걸까?”</strong><span>행동에 관한 경계가 애정의 시험으로 바뀐다.</span></div>
+  </div>
+  <h5>돌봄이 되는 말과 결정권을 빼앗는 말</h5>
+  <div class="rw-care-compare" role="group" aria-label="배려와 간섭의 후속 대화 비교">
+    <div>
+      <b>걱정을 알리되 동의를 구하는 다음 말</b>
+      <p>“연락 안 돼서 많이 걱정했어. 네 메시지를 본 건 내 잘못이야. 다음에 정말 급할 땐 어떻게 서로 확인할지 같이 정하자.”</p>
+      <small>연락의 약속과 사생활의 범위를 따로 다룬다.</small>
+    </div>
+    <div>
+      <b>사랑을 이유로 거절을 어렵게 하는 다음 말</b>
+      <p>“정말 날 사랑하면 숨길 것도 없잖아. 내가 걱정하는데 왜 못 보게 해?”</p>
+      <small>허락하지 않은 행동을 애정의 증거로 바꿔 말한다.</small>
+    </div>
+  </div>
+  <p>서로 믿는다는 말은 아무 경계도 없어야 한다는 뜻일까. 지호는 ‘늦게 될 때 알리기’라는 약속을 고칠 수 있다. 나래는 불안해진 이유를 이야기하고 급한 연락 방법을 새로 의논할 수 있다. 그러나 한 가지 약속을 어겼다고 해서 다른 종류의 허락이 자동으로 생기지는 않는다. 함께 사는 관계에서도 <strong>연락을 기다릴 수 있는 마음</strong>과 <strong>사생활에 대한 동의</strong>는 구별할 수 있다.</p>
+  <p>다음 날 지호가 다시 이야기했을 때, 나래가 “그건 미리 묻지 않았네”라고 인정한다면 첫날의 말은 불안 속에서 경계를 놓친 이야기로 다시 읽힐 여지가 있다. 반대로 반복해서 대화를 몰래 확인하며 “사랑하니까”라고만 답한다면, 지호가 자기 불편함을 말할 자리 자체가 줄어든다. 어느 한 번의 문장만으로 관계의 모든 면을 판단하지 않는 이유도 그 다음 상호작용에 있다.</p>
+  <p>연인 사이의 정보 공개와 사생활을 다룬 Kil 등의 연구(2022)는 사생활을 존중하며 선택권을 지지하는 대화가 통제적 접근보다 더 수용 가능하고 효과적인 것으로 평가되는 경향을 보고합니다. 이 결과가 모든 관계에서 같은 선택을 보장하거나, 이 가상 장면 속 인물의 심리를 입증하는 것은 아닙니다. <strong>배려와 간섭을 가르는 질문은 사랑의 크기보다 서로 어떤 행동까지 동의했는지</strong>에 가깝습니다.</p>
+  <p class="rw-care-source">참고: Kil 외(2022), <i>Autonomy support in disclosure and privacy maintenance regulation within romantic relationships</i>, <i>Personal Relationships</i> 29(2), 305–331. <a href="https://doi.org/10.1111/pere.12419" rel="noopener noreferrer">DOI 원문</a>. 연구의 두 표본(N=268 개인, N=78 커플)과 연구 설계의 한계를 넘어 인과적·개인적 진단으로 사용하지 않았습니다.</p>
+  <p class="rw-care-end"><strong>“사랑하니까 하는 말이야”는</strong> 걱정과 관심을 전하는 말일 수 있지만, 그 사랑을 이유로 상대의 사생활과 선택에 대한 허락을 대신할 수 있는 말은 아니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW067_CARE_INTRUSION_V1_20261023 -->
+
+<section class="rw-experience" aria-labelledby="rw-experience-title">
+  <div class="rw-experience-kicker">5-3 · 나이와 경험을 앞세우는 말</div>
+  <h4 id="rw-experience-title">“내가 살아봐서 아는데” — 경험이 조언을 넘어 결정권이 되는 순간</h4>
+  <div class="rw-experience-scene">
+    <small>수요일 저녁 8시 40분 · 가족 식탁 · 가상으로 재구성한 장면</small>
+    <p>서른둘의 수진은 저녁 내내 접었다 편 종이를 식탁 위에 놓았다. 회사에서 새로 생긴 디자인 업무로 옮길 기회가 있었다. 지금 팀보다 배워야 할 일은 많아졌지만, 몇 해 전부터 하고 싶던 일이기도 했다. 최근 업무를 경험한 동료에게도 물었고, 자신이 감당할 수 있는 생활비와 시간을 따로 적어 보았다. 오늘 가족에게는 결정을 대신 내려 달라기보다 고민을 들어 달라고 말하려 했다.</p>
+    <div class="rw-experience-talk">
+      <p><b>수진</b> “옮기고 싶은 마음이 커. 다만 새 팀에서 처음 몇 달이 어려울 것 같아서 걱정돼.”</p>
+      <p><b>아버지</b> “내가 살아봐서 아는데, 회사는 가만히 있는 사람이 오래 가. 괜히 움직이지 마.”</p>
+      <p><b>수진</b> “그때랑 지금은 업무가 좀 달라서, 내가 확인한 조건도 얘기해 보려고.”</p>
+      <p><b>아버지</b> “아직 네가 몰라서 그래. 내 말대로 하는 게 맞아.”</p>
+    </div>
+    <p>아버지는 오래 일하며 불안정한 부서 이동을 겪었고, 딸에게 같은 어려움이 생기지 않기를 바랐을 수 있다. 수진 역시 그 경험이 쓸모없다고 생각하지 않았다. 듣고 싶은 것은 <strong>무엇을 미리 확인하면 좋을지에 관한 조언</strong>이었다. 그런데 대화의 끝에서 아버지의 경험은 하나의 참고 사례가 아니라 <strong>수진의 선택보다 위에 놓인 정답</strong>처럼 들렸다. 수진은 옮길지 말지의 고민 대신 아버지의 말을 거절해도 되는지를 고민하게 되었다.</p>
+  </div>
+  <div class="rw-experience-flow" role="group" aria-label="경험에서 나온 조언과 결정권의 차이">
+    <div><small>① 전할 수 있는 것</small><strong>“나도 이동했다가 어려웠어.”</strong><span>경험에 담긴 실제 위험과 정보</span></div>
+    <div><small>② 달라지는 지점</small><strong>“그러니 내 말이 맞아.”</strong><span>한 번의 경험을 일반적인 결론으로 확장</span></div>
+    <div><small>③ 듣는 사람의 부담</small><strong>“그럼 내 조건은 말해도 되나?”</strong><span>자신의 판단과 선택을 설명하기 어려워짐</span></div>
+  </div>
+  <div class="rw-experience-compare" role="group" aria-label="조언을 선택 가능한 정보로 남기는 경우와 경험으로 결정을 대체하는 경우 비교">
+    <div>
+      <b>경험을 나누되 선택권을 남기는 말</b>
+      <p>“나는 이동하고 나서 교육 지원이 부족해 힘들었어. 새 팀의 교육과 업무 범위는 확인해 봤니?”</p>
+      <small>이전에 겪은 위험을 질문으로 바꾸고, 지금의 조건을 함께 검토한다.</small>
+    </div>
+    <div>
+      <b>경험을 근거로 상대의 판단을 닫는 말</b>
+      <p>“네 나이에 뭘 알겠어. 내가 더 살아봤으니까 그냥 하라는 대로 해.”</p>
+      <small>현재의 정보보다 나이와 경험의 서열을 앞세워 결론을 정한다.</small>
+    </div>
+  </div>
+  <h5>조언을 들었다는 것과 그 조언대로 결정한다는 것은 다르다</h5>
+  <p>다음 날 수진이 교육 계획과 팀장의 설명을 가족에게 다시 보여 주자, 아버지가 “그건 내가 몰랐네. 내 경험은 달랐지만 네 상황은 더 확인해 보자”라고 한다면 첫날의 말도 걱정이 서툴게 표현된 장면으로 다시 읽힐 수 있다. 반대로 새로운 자료를 듣지 않고 계속 “내가 더 오래 살았어”라고만 말한다면, 수진에게 남는 것은 조언보다 발언 순서의 서열일 수 있다. 어느 쪽인지는 그 말 하나보다 뒤이어 이어지는 대화에서 드러난다.</p>
+  <p>연구에서도 과거 경험을 직접 내세우는 방식이 조언의 평가에 영향을 줄 수 있지만, 업무 문제와 가족 문제에서 결과가 같지 않았습니다. <strong>경험에는 배울 만한 정보가 있지만, 경험자의 결론이 현재의 모든 사람에게 그대로 맞는 것은 아닙니다.</strong> 이 장면은 가상 사례이며 연구로 아버지의 의도나 가족 관계의 결과를 확정하지 않습니다.</p>
+  <p class="rw-experience-source">참고: Kellie St.Cyr Brisini &amp; Denise Haunani Solomon (2020), “Building Expertise: Effects of Experience Claims on Responses to Advice,” <i>Journal of Language and Social Psychology</i> 39(3), 375–396. <a href="https://doi.org/10.1177/0261927X20911978" rel="noopener noreferrer">원문 DOI</a>. 배우자 조언의 실험 연구로, 다른 세대의 가족 대화에 그대로 일반화하지 않았습니다.</p>
+  <p class="rw-experience-ending"><strong>“내가 살아봐서 아는데”는</strong> 지나온 경험에서 배운 것을 건네는 말일 수 있지만, 듣는 사람의 사정과 판단을 대신할 권리까지 얻는 말은 아니다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW062_EXPERIENCE_V1_20261023 -->
+<section class="rw-close" aria-labelledby="rw-close-title">
+ <p class="rw-close-kicker">5-4 · 친밀함을 핑계로 선을 넘는 말</p>
+ <h4 id="rw-close-title">“우리 사이에 뭘” — 가까운 사이라는 이유로 생략된 질문</h4>
+ <div class="rw-close-scene">
+  <small>일요일 오후 6시 8분 · 야간 근무를 마치고 돌아온 친구의 집</small>
+  <p>은주는 퇴근하고 씻은 뒤 막 식탁에 앉았다. 잠깐 조용히 쉬려던 참에 오래된 친구 미정에게 연락이 왔다. 빌려 간 책을 돌려주려고 집 근처에 왔다고 했다. 은주는 고맙다며 문을 열었다. 그런데 미정 뒤에는 다른 동창 둘이 서 있었다. 세 사람은 반가운 얼굴이었지만, 그날 은주는 사람을 맞을 준비를 하지 못했다.</p>
+  <div class="rw-close-talk">
+   <p><b>은주</b> “어, 다 같이 왔네? 오늘은 나 좀 쉬려고 했는데.”</p>
+   <p><b>미정</b> “근처까지 온 김에 잠깐 얼굴이나 보려고. <strong>우리 사이에 뭘</strong> 이런 것까지 미리 물어봐.”</p>
+   <p><b>은주</b> “반갑긴 한데… 난 오늘 손님 맞기는 좀 어려워.”</p>
+  </div>
+  <p>미정은 오랜 친구라 부담이 없을 거라 생각했을 수 있다. 은주는 미정이 책을 돌려주러 온 것 자체는 고마웠다. 그러나 <strong>친구를 반가워하는 마음</strong>과 <strong>지금 집으로 사람들을 들이고 싶은 마음</strong>은 같지 않았다. 은주는 이 일을 설명하려다 괜히 오래된 우정을 셈하는 사람처럼 보일까 걱정했다.</p>
+ </div>
+ <div class="rw-close-flow" aria-label="친밀함과 동의의 차이를 보여 주는 흐름">
+  <div><small>기억한 관계</small><strong>“우리는 오래된 친구잖아.”</strong><span>부담 없었던 지난 만남</span></div>
+  <div><small>생략된 질문</small><strong>“지금 가도 괜찮아?”</strong><span>오늘의 시간과 공간에 관한 확인</span></div>
+  <div><small>남겨진 부담</small><strong>“싫다고 하면 섭섭해할까?”</strong><span>거절을 우정의 문제로 느끼는 순간</span></div>
+ </div>
+ <h5>친근한 제안, 부담스러운 기대, 경계를 넘는 말은 어떻게 달라질까</h5>
+ <div class="rw-close-compare" role="group" aria-label="상대의 선택을 인정하는 말과 가까움을 내세워 결정하는 말의 차이">
+  <div><b>선택권을 남기는 말</b><p>“오늘 집에 잠깐 들러도 돼? 피곤하면 책만 문 앞에 놓고 갈게.”</p><small>친밀함을 전제하되 오늘의 상황은 다시 묻는다.</small></div>
+  <div><b>선택권을 좁히는 말</b><p>“우리 사이에 뭘 허락까지 받아? 잠깐인데 너무한다.”</p><small>이미 정한 방문을 우정의 크기로 정당화한다.</small></div>
+ </div>
+ <p>단 한 번 불시에 찾아왔다고 해서 그 사람이 반드시 경계를 침범하려는 사람이라고 단정할 수는 없다. 반가움이 앞서 상대의 하루를 미처 헤아리지 못할 때도 있다. 하지만 은주가 “오늘은 어렵다”고 말한 <strong>뒤의 대답</strong>에는 차이가 남는다. 미정이 “몰랐어, 미안해. 책은 앞에 두고 갈게”라고 한다면 두 사람은 서로의 상황을 새로 알게 된다. 반대로 “이 정도도 못 해 주면 친구가 맞아?”라고 되묻는다면, 은주는 다음에도 쉬고 싶다는 말을 꺼내기 어려울 수 있다.</p>
+ <p>친밀함은 상대의 마음을 더 잘 짐작하게 할 수 있지만, 그날의 사정까지 대신 결정해 주지는 않는다. 직장과 사생활의 경계를 조정하는 사람들을 살핀 Trefalt(2013)의 질적 연구에서도 경계 설정은 관계의 종류와 맥락에 따라 달라졌다. 다만 이 결과로 오래된 친구 사이의 모든 방문이나 부탁을 해롭다고 판단할 수는 없다.</p>
+ <p class="rw-close-source">참고: Špela Trefalt (2013), “Between You and Me: Setting Work–Nonwork Boundaries in the Context of Workplace Relationships,” <i>Academy of Management Journal</i>, 56(6), 1802–1829. <a href="https://doi.org/10.5465/amj.2011.0298" rel="noopener noreferrer">DOI 원문</a>. 직장 관계 연구이므로 이 장면의 원인·결과를 직접 증명하지 않습니다.</p>
+ <p class="rw-close-end"><strong>“우리 사이에 뭘”은</strong> 서로 편하게 지내는 사이임을 확인하는 말일 수 있지만, 오늘의 시간·공간·선택을 묻는 질문까지 대신할 수는 없는 말이다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW057_CLOSENESS_V1_20261023 -->
+
+<section class="rw-silence" aria-labelledby="rw-silence-title">
+  <div class="rw-silence-kicker">5-5 · 침묵을 강요하는 말</div>
+  <h4 id="rw-silence-title">“좋은 게 좋은 거야”라는 말 뒤에 누가 말을 멈추는가</h4>
+  <div class="rw-silence-scene">
+    <small>토요일 오후 5시 20분 · 동네 도서관 책 나눔 행사 준비 모임</small>
+    <p>행사 전날인데 자원봉사자에게 바뀐 집합 시간이 제대로 전달되지 않았다. 일부는 한 시간을 먼저 와서 문이 열리기를 기다렸다. 혜진이 다음 행사에서는 변경 사항을 단체방에 남겨 달라고 말하자, 진행을 맡은 선배가 웃으며 말했다.</p>
+    <div class="rw-silence-talk">
+      <p><b>혜진</b> “누가 잘못했는지 따지려는 건 아니에요. 다음번엔 모두가 시간을 알 수 있게 정했으면 좋겠어요.”</p>
+      <p><b>선배</b> “오늘 행사도 잘 끝났잖아. 좋은 게 좋은 거야. 이제 와서 괜히 분위기 흐리지 말자.”</p>
+    </div>
+    <p>선배에게는 모두 고생한 자리에서 갈등을 더 키우지 않으려는 마음이 있었을 수 있다. 혜진에게는 다음번의 기다림을 줄이자는 구체적인 제안이 있었다. 그러나 대답 이후 대화의 주제는 <strong>연락 방식을 어떻게 고칠까</strong>에서 <strong>왜 지금 그 이야기를 꺼냈을까</strong>로 바뀌었다. 혜진은 입을 다물었지만, 기다렸던 한 시간은 없던 일이 되지 않았다.</p>
+  </div>
+  <div class="rw-silence-flow" aria-label="문제 제기가 침묵으로 이동하는 과정">
+    <div><small>처음의 말</small><strong>“다음엔 시간을 함께 알려 주세요.”</strong><span>고칠 수 있는 행동에 관한 제안</span></div>
+    <div><small>돌아온 말</small><strong>“좋은 게 좋은 거야.”</strong><span>분위기를 지키자는 다른 기준</span></div>
+    <div><small>남은 자리</small><strong>“그럼 지금은 말하면 안 되나?”</strong><span>문제를 말하는 사람의 부담</span></div>
+  </div>
+  <h5>잠깐 멈추자는 말과 아예 말하지 말라는 말의 차이</h5>
+  <div class="rw-silence-choices">
+    <div>
+      <b>이야기를 잠시 보류하는 경우</b>
+      <p>“오늘은 다들 지쳤으니 월요일 회의에서 그 연락 문제를 함께 정해요.”</p>
+      <small>시간을 옮기되 주제와 발언권은 남겨 둔다.</small>
+    </div>
+    <div>
+      <b>문제 제기 자체를 막는 경우</b>
+      <p>“다들 넘어가는데 너만 굳이 그 얘기를 해? 좋은 뜻으로 한 일인데.”</p>
+      <small>말한 사람의 태도를 문제로 삼아 대화의 문을 좁힌다.</small>
+    </div>
+  </div>
+  <p class="rw-silence-reading">그 말이 언제나 침묵을 강요하는 것은 아닙니다. 정말로 함께 쉬고 싶거나 상황을 추슬러야 하는 때도 있습니다. 갈림길은 <strong>그 뒤에 다시 말할 시간이 생겼는지</strong>입니다. 혜진이 월요일에 연락 방식을 제안할 수 있다면, 토요일의 말은 갈등을 조절하려는 보류로 기억될 수 있습니다. 다음에도 “왜 자꾸 문제를 키워?”라는 대답만 돌아온다면, 좋은 분위기를 지키는 비용이 한 사람의 침묵으로 지불될 수 있습니다.</p>
+  <p class="rw-silence-reading">직장 내 발언·침묵 연구에서는 말할 수 있는 분위기와 상대의 개방성이 우려를 표현할지 결정하는 데 관련된다고 보고합니다. 그러나 그 연구로 이 장면 속 선배의 의도나 친구·가족 관계의 결과를 확정할 수는 없습니다. 여기서는 <strong>말을 멈춘 사람이 동의한 것은 아닐 수 있다</strong>는 가능성을 읽는 보조 근거로만 사용합니다.</p>
+  <p class="rw-silence-source">참고: Elizabeth W. Morrison, “Employee Voice and Silence: Taking Stock a Decade Later,” <i>Annual Review of Organizational Psychology and Organizational Behavior</i> 10 (2023), 79–107. DOI: 10.1146/annurev-orgpsych-120920-054654.</p>
+  <p class="rw-silence-end"><strong>“좋은 게 좋은 거야”는</strong> 갈등을 잠시 쉬게 하는 말일 수 있지만, 고쳐야 할 일을 말할 자리까지 없애서는 안 되는 말이다.</p>
+</section>
+<!-- REWORD_RELATION_HUB_ABSORB_NW052_SILENCE_V1_20261023 -->
+<div class="area-posts">
+<a href="/huhoehanda"><small>5-1 · 걱정처럼 보이는 통제 · NW-073</small><strong>후회한다 — 걱정을 예언처럼 말할 때</strong><span>친구의 새로운 일자리를 앞에 두고 “나중에 후회할 거야”라는 말이 아직 오지 않은 미래를 대신 확정할 때.</span></a>
+<!-- REWORD_RELATION_LINK_HUHOEHANDA_V1_20261107 --><a href="/saranghanikka-haneun-mariya"><small>5-2 · 사랑과 관심을 앞세우는 간섭 · NW-071</small><strong>사랑하니까 하는 말이야 — 갈아입으라는 말 앞에서 멈춘 저녁</strong><span>연인의 가족과 첫 식사 전에 갈아입으라는 말. 사랑을 이유로 선택을 요구받는 장면을 함께 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_SARANGHANIKKA_HANEUN_MARIYA_V1_20261107 -->
+<a href="/gwansim-eopseumyeon-maldo-an-hae"><small>5-2 · 사랑과 관심을 앞세우는 간섭 · NW-070</small><strong>관심 없으면 말도 안 해 — 답하고 싶지 않은 질문이 고마움의 시험이 된 밤</strong><span>첫 집들이에 돌아온 월세와 보증금 질문. 관심을 인정하면서도 지금 답하고 싶지 않다는 말을 남길 수 있을까.</span></a>
+<!-- REWORD_RELATION_LINK_GWANSIM_EOPSEUMYEON_MALDO_AN_HAE_V1_20261107 -->
+<a href="/neoreul-wihaeseoya"><small>5-2 · 사랑과 관심을 앞세우는 간섭 · NW-069</small><strong>너를 위해서야 — 떨릴까 봐 지워진 내 발표 순서</strong><span>첫 전시에서 직접 말하려던 사람의 순서를 보호한다는 이유로 바꾼 동료. 선의를 설명하는 말과 선택을 돌려주는 말을 구별합니다.</span></a>
+<!-- REWORD_RELATION_LINK_NEOREUL_WIHAESEOYA_V1_20261107 -->
+<a href="/naega-animyeon-nuga-malhaejwo"><small>5-2 · 사랑과 관심을 앞세우는 간섭 · NW-068</small><strong>내가 아니면 누가 말해줘 — 고마운 조언이 부담으로 바뀌는 순간</strong><span>작은 화분을 자랑하는 사람에게 조언이 길어질 때, 도움을 듣고 싶은지 묻는 관계를 생각합니다.</span></a>
+<!-- REWORD_RELATION_LINK_NAEGA_ANIMYEON_NUGA_MALHAEJWO_V1_20261107 -->
+<a href="/neoneun-ajik-eoryeo"><small>5-3 · 나이와 경험을 앞세우는 말 · NW-066</small><strong>너는 아직 어려 — 의견을 듣기도 전에 나이가 대답이 된 순간</strong><span>겪어 보지 못한 것을 조심하라는 말이 질문할 자격까지 지우는 순간을 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_NEONEUN_AJIK_EORYEO_V1_20261107 -->
+<a href="/naega-sarabwaseo-aneunde"><small>5-3 · 경험을 정답으로 만드는 말 · NW-065</small><strong>내가 살아봐서 아는데 — 지나온 경험이 남의 선택을 대신할 때</strong><span>같은 집을 보고도 다른 삶을 떠올릴 때, 조언은 어디까지 결정에 도움을 줄까요?</span></a>
+<!-- REWORD_RELATION_LINK_NAEGA_SARABWASEO_ANEUNDE_V1_20261024 -->
+<a href="/najunge-alge-dwae"><small>5-3 · 나이와 경험을 앞세우는 말 · NW-064</small><strong>나중에 알게 돼 — 오늘 슬픈 사람에게 미래를 먼저 말할 때</strong><span>나중의 안목을 전하는 말과 오늘의 마음을 존중하는 말은 어떻게 함께 있을까요?</span></a>
+<!-- REWORD_RELATION_LINK_NAJUNGE_ALGE_DWAE_V1_20261024 -->
+<a href="/nega-mwol-ara"><small>5-3 · 나이와 경험을 앞세우는 말 · NW-063</small><strong>네가 뭘 알아 — 늦은 자막을 말한 막내가 조용해진 밤</strong><span>늦은 자막을 지적한 신입에게 경력의 서열로 답한 순간, 배움과 발언의 자리는 어떻게 달라질까요?</span></a>
+<!-- REWORD_RELATION_LINK_NEGA_MWOL_ARA_V1_20261024 -->
+<a href="/uri-saie-mwol"><small>5-4 · 친밀함과 경계 · NW-061</small><strong>우리 사이에 뭘 — 친구에게 털어놓은 이야기가 단체방에 올라간 날</strong><span>가까운 친구에게만 전한 이직 결과가 단체방에 공유된 날, 믿음과 전달 허락은 어떻게 달랐을까요.</span></a>
+<!-- REWORD_RELATION_LINK_URI_SAIE_MWOL_V1_20261024 -->
+<a href="/chinhaeseo-geureoneun-geoya"><small>5-4 · 친밀함과 경계 · NW-060</small><strong>친해서 그러는 거야 — 그만해 달라는 말을 농담으로 돌린 밤</strong><span>오래된 친구의 농담이 불편하다는 말 뒤에도 이어질 때, 우정과 거절의 의미가 어떻게 달라지는지 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_CHINHAESEO_GEUREONEUN_GEOYA_V1_20261024 -->
+<a href="/neonikka-haneun-mariya"><small>5-4 · 친밀함을 핑계로 선을 넘는 말 · NW-059</small><strong>너니까 하는 말이야 — 오래된 친구의 충고가 더 아팠던 밤</strong><span>오래된 친구에게 원고를 보여 준 날, 글의 문제를 넘어 사람의 의도를 규정한 순간을 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_NEONIKKA_HANEUN_MARIYA_V1_20261024 -->
+<a href="/uri-saie-ireogiya"><small>5-4 · 친밀함과 경계 · NW-058</small><strong>우리 사이에 이러기야 — 도와주지 못한다는 말 뒤에 남은 서운함</strong><span>오래된 친구의 꽃가게 일을 도와주지 못한 날, 도움의 기대가 우정의 조건으로 들린 순간을 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_URI_SAIE_IREOGIYA_V1_20261024 -->
+<a href="/joheun-ge-joheun-geoya"><small>5-5 · 침묵을 강요하는 말 · NW-056</small><strong>좋은 게 좋은 거야 — 모두의 웃음 뒤에서 지워진 이름</strong><span>행사를 지키자는 말이 실수를 고칠 기회까지 막지 않는지, 다음 대화로 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_JOHEUN_GE_JOHEUN_GEOYA_V1_20261024 -->
+<a href="/bunwigi-kkaeji-ma"><small>5-5 · 침묵을 강요하는 말 · NW-055</small><strong>분위기 깨지 마 — 함께 웃는 자리에서 혼자 말을 삼킨 밤</strong><span>함께 축하하는 자리에서 다음 시즌의 어려움을 꺼내려던 사람에게 “분위기 깨지 마”가 돌아온 장면.</span></a>
+<!-- REWORD_RELATION_LINK_BUNWIGI_KKAEJI_MA_V1_20261024 -->
+<a href="/wae-ireul-kiwo"><small>5-5 · 침묵을 강요하는 말 · NW-054</small><strong>왜 일을 키워 — 예약표를 고치자던 사람이 갈등의 원인이 된 밤</strong><span>예약표 변경을 함께 정하자는 제안이 왜 갈등을 만드는 말로 평가됐는지 읽습니다.</span></a>
+<!-- REWORD_RELATION_LINK_WAE_IREUL_KIWO_V1_20261024 -->
+<a href="/jiban-mangsin-iya"><small>5-5 · 침묵과 체면 · NW-053</small><strong>집안 망신이야 — 도움을 청하려던 딸이 입을 다문 저녁</strong><span>가족을 위한 도움 요청이 체면의 문제로 바뀌는 식탁의 대화.</span></a>
+<!-- REWORD_RELATION_LINK_JIBAN_MANGSIN_IYA_V1_20261024 -->
+<a href="/da-neo-jaldoerago-haneun-mariya"><small>5-1 · 걱정을 앞세운 통제 · NW-001</small><strong>다 너 잘되라고 하는 말이야 — 친구가 대신 신청한 첫 플리마켓</strong><span>친구가 대신 예약해 둔 첫 플리마켓. 고마움을 잃지 않으면서 자신의 시작을 스스로 고를 수 있을지 묻습니다.</span></a>
+<!-- REWORD_RELATION_LINK_DA_NEO_JALDOERAGO_HANEUN_MARIYA_V1_20261024 -->
+<a href="/neoneun-gwaenchanji"><small>교차 정본 · 03/05</small><strong>너는 괜찮지 — 가까움이 상대의 선택을 대신할 때</strong><span>가까운 사이라서 가능할 것이라는 예상이 상대의 시간·체력·일정을 대신 결정하고 있지는 않은지 함께 봅니다.</span></a></div></article>
+      <article class="area fade" id="area-06"><span class="area-num">06 · DISTANCE</span><h3>거리와 관계 변화의 말</h3><p>헤어지자는 말 없이도 관계는 조금씩 멀어집니다. 말투와 빈도, 대화의 끝에서 그 변화를 읽습니다.</p><div class="words"><span>요즘 좀 바빠</span><span>다음에 보자</span><span>여기까지 하자</span></div><div class="area-posts"><a href="/honja-itgo-sipeo"><small>교차 정본 · 01/06/07</small><strong>혼자 있고 싶어 — 멀어지고 싶은 걸까, 잠시 쉬고 싶은 걸까</strong><span>잠깐의 회복 거리와 관계 자체가 멀어지는 거리를 이후 상호작용에서 구분합니다.</span></a><a href="/ikssip"><small>교차 정본 · 02/06</small><strong>읽씹 — 답이 없는 시간에 관계를 먼저 해석하게 되는 순간</strong><span>한 번의 답 없음이 아니라 연락 빈도·반복·후속 대화까지 달라질 때 거리 변화의 신호가 되는지 봅니다.</span></a><a href="/yeogikkaji-haja"><small>교차 정본 · 02/06/07</small><strong>여기까지 하자 — 말의 끝이 관계의 끝이 되는 순간</strong><span>“여기”가 현재 대화가 아니라 관계 전체를 가리킬 때 연락·약속·거리 자체가 어떻게 달라지는지 봅니다.</span></a></div><!-- REWORD_RELATION_CROSSLINK_YEOGIKKAJI_HAJA_AREA06_V1_20261003 --></article>
+      <article class="area fade" id="area-07"><span class="area-num">07 · BOUNDARY & RECOVERY</span><h3>경계와 회복의 말</h3><p>밀어내기와 자기 보호는 같지 않습니다. 관계를 버리려는 말과 관계를 지키기 위해 거리를 만드는 말을 구별합니다.</p><div class="words"><span>지금은 혼자 있고 싶어</span><span>시간이 필요해</span><span>이건 싫어</span></div><div class="area-posts"><a href="/honja-itgo-sipeo"><small>교차 정본 · 01/06/07</small><strong>혼자 있고 싶어 — 멀어지고 싶은 걸까, 잠시 쉬고 싶은 걸까</strong><span>관계를 끊지 않으면서도 지금 필요한 거리를 요청하는 말이 언제 회복의 경계가 되는지 읽습니다.</span></a><a href="/najunge-yaegihaja"><small>교차 정본 · 02/07</small><strong>나중에 얘기하자 — 멈춤이 관계를 지키는 시간이 되려면</strong><span>감정이 커진 순간 대화를 잠시 멈추는 것이 경계가 될 수 있지만, 그 멈춤 뒤 다시 말할 자리가 남는지를 함께 봅니다.</span></a><a href="/deo-malhamyeon-ssawo"><small>교차 정본 · 02/07</small><strong>더 말하면 싸워 — 상처를 더 만들기 전에 멈추는 경계</strong><span>감정 폭발을 막기 위한 멈춤이 관계 보호가 되려면, 진정된 뒤에도 문제를 다시 다룰 수 있어야 하는지 살핍니다.</span></a><a href="/jigeum-malhaji-malja"><small>교차 정본 · 02/07</small><strong>지금 말하지 말자 — 현재를 멈추는 경계와 발언권</strong><span>지금 대화를 멈출 수 있는 권리와, 경계가 풀린 뒤 상대가 다시 말할 수 있는 권리가 함께 남는지 봅니다.</span></a><a href="/yeogikkaji-haja"><small>교차 정본 · 02/06/07</small><strong>여기까지 하자 — 더 넘지 않기 위해 긋는 선</strong><span>관계를 지키기 위한 멈춤과 관계를 정리하기 위한 마지막 선이 같은 문장 안에서 어떻게 갈리는지 봅니다.</span></a><a href="/geumanhaja"><small>교차 정본 · 02/07</small><strong>그만하자 — 함께 멈추는 정지어가 경계가 될 때</strong><span>감정 폭발을 막기 위한 일시 정지와 상대의 발언을 반복해서 닫는 차단을, 멈춤 뒤 대화가 다시 돌아오는지에서 읽습니다.</span></a></div><!-- REWORD_RELATION_CROSSLINK_GEUMANHAJA_AREA07_V1_20261003 --></article>
+      <article class="area fade" id="area-08"><span class="area-num">08 · SPEAKER & AGREEMENT</span><h3>화자와 동의의 말</h3><p>혹시, 그래도 같은 작은 말은 문장의 앞과 뒤를 바꾸고, 말하는 사람의 태도와 동의의 정도를 드러냅니다.</p><div class="words"><span>혹시</span><span>그래도</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section paper">
+  <div class="wrap">
+    <div class="section-head fade"><h2>말한 마음과<br>들은 마음 사이.</h2><p>관계에서 중요한 것은 화자가 무엇을 의도했는지만이 아닙니다. 좋은 의도였더라도 듣는 사람에게 다르게 닿을 수 있고, 불편하게 들렸다고 해서 화자의 마음까지 하나로 단정할 수는 없습니다.</p></div>
+    <div class="bridge">
+      <article class="voice say fade"><small>말한 사람</small><h3>“그런 뜻은 아니었어.”</h3><p>걱정해서, 분위기를 풀려고, 더 싸우고 싶지 않아서 한 말일 수 있습니다. 화자에게는 나름의 이유가 있습니다.</p></article>
+      <article class="voice hear fade"><small>들은 사람</small><h3>“그런데 나는 그렇게 들렸어.”</h3><p>말은 화자의 입에서 끝나지 않습니다. 듣는 사람의 기억과 관계의 역사 안에서 다시 받아들여집니다.</p></article>
+    </div>
+    <div class="method">
+      <article class="method-card fade"><b>장면에서 시작합니다.</b><p>언제, 어디서, 무슨 일이 있은 직후였는지를 먼저 보여줍니다.</p></article>
+      <article class="method-card fade"><b>마음을 하나로 확정하지 않습니다.</b><p>같은 말이 전혀 다른 이유에서 나올 수 있다는 가능성을 남겨 둡니다.</p></article>
+      <article class="method-card fade"><b>그다음을 봅니다.</b><p>말 뒤의 침묵, 다시 이어진 대화, 달라진 거리까지가 한 장면의 일부입니다.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="closing"><div class="wrap"><div class="closing-box fade"><small>RE:WORD · RELATION LANGUAGE</small><h2>관계를 읽는다는 것은 상대의 마음을 맞히는 일이 아닙니다.</h2><p>아직 말이 되지 않은 마음이 있을 수 있다는 것, 같은 말을 서로 다르게 들을 수 있다는 것, 그리고 한 번의 문장만으로 사람과 관계를 다 알 수 없다는 것을 기억하는 일에 더 가깝습니다. Re:Word는 그 사이에 남는 말을 한 장면씩 다시 읽습니다.</p></div></div></section>
+</main>
+
+<footer class="footer"><div class="wrap footer-in"><span>© 2026 4번째 계절</span><span>Re:Word · 관계의 언어</span></div></footer>
+<script>const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.1});document.querySelectorAll('.fade').forEach(el=>io.observe(el));</script>
+<script id="s4-stdict-search-js" src="/assets/common/stdict-search.js?v=20260927v1" defer></script>
+</body>
+</html>
