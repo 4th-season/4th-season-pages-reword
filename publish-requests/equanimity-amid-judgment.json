@@ -1,0 +1,10 @@
+{
+  "schema": "4th-season.public-article-request/v1",
+  "operation": "CONTENT_ADD",
+  "article_id": "REWORD-EMOTION-LEAF-135",
+  "slug": "equanimity-amid-judgment",
+  "parent_map": "life/reword/emotion",
+  "cover": "assets/reword/equanimity-amid-judgment-cover.webp",
+  "marker": "EM-LEAF-135-EQUANIMITY-AMID-JUDGMENT-20261117",
+  "job_id": "REWORD-EMOTION-LEAF135-EQUANIMITY-AMID-JUDGMENT-20261117-001"
+}
