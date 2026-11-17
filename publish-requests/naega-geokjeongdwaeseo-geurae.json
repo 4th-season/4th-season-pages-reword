@@ -1,0 +1,10 @@
+{
+  "schema": "4th-season.public-article-request/v1",
+  "operation": "CONTENT_ADD",
+  "article_id": "REWORD-RELATION-097",
+  "slug": "naega-geokjeongdwaeseo-geurae",
+  "parent_map": "life/reword",
+  "cover": "assets/reword/naega-geokjeongdwaeseo-geurae-cover.webp",
+  "marker": "REWORD_RELATION_NW075_GEOKJEONG_V1_20261117",
+  "job_id": "REWORD-RELATION-NW075-GEOKJEONG-V1-20261117-001"
+}
